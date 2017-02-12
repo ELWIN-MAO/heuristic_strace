@@ -1,0 +1,104 @@
+socket(PF_LOCAL, SOCK_STREAM, 0
+bind(0<UNIX:[376006]>, {sa_family=AF_LOCAL, sun_path="unix-yy-local-stream"}, 23
+listen(0<UNIX:[376006,"unix-yy-local-stream"]>, 5
+getsockname(0<UNIX:[376006,"unix-yy-local-stream"]>, 
+accept(0<UNIX:[376006,"unix-yy-local-stream"]>, 
+close(0<UNIX:[376006,"unix-yy-local-stream"]>
+close(1<UNIX:[376007,"unix-yy-local-stream"]>
++++ exited with 0 +++
+sun_path="unix-yy-local-stream"}, [23]
+NULL}, [2]
+ sys_name=read
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=munmap
+ sys_name=brk
+ sys_name=arch_prctl
+ sys_name=open
+ sys_name=open
+ sys_name=access
+ sys_name=access
+ sys_name=access
+ sys_name=exit_group
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=socket
+ sys_name=accept
+ sys_name=bind
+ sys_name=fstat
+ sys_name=fstat
+ sys_name=listen
+ sys_name=getsockname
+ sys_name=clone
+ sys_name=execve
+ sys_name=wait4
+ sys_name=kill
+ sys_name=unlink
+ sys_name=unlink
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=read
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=mprotect
+ sys_name=munmap
+ sys_name=brk
+ sys_name=arch_prctl
+ sys_name=open
+ sys_name=open
+ sys_name=access
+ sys_name=access
+ sys_name=access
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=close
+ sys_name=socket
+ sys_name=accept
+ sys_name=bind
+ sys_name=fstat
+ sys_name=fstat
+ sys_name=listen
+ sys_name=getsockname
+ sys_name=clone
+ sys_name=execve
+ sys_name=wait4
+ sys_name=kill
+ sys_name=unlink
+ sys_name=unlink
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+ sys_name=mmap
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>
+...>

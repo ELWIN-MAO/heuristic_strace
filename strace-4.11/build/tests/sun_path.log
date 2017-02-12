@@ -1,0 +1,430 @@
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137
+Failed patterns of expected output:
+[1-9][0-9]* +[0-9]+:[0-9]+:[0-9]+\.[0-9]+ +bind\(0, \{sa_family=AF_(LOCAL|UNIX|FILE), sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"\}, 110\) += 0
+[1-9][0-9]* +[0-9]+:[0-9]+:[0-9]+\.[0-9]+ +getsockname\(0, \{sa_family=AF_(LOCAL|UNIX|FILE), sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"\}, \[111\]\) += 0
+[1-9][0-9]* +[0-9]+:[0-9]+:[0-9]+\.[0-9]+ +connect\(1, \{sa_family=AF_(LOCAL|UNIX|FILE), sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"\}, 110\) += 0
+Actual output:
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102964 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102965 
+102964 ) = 0
+102964 ) = 0
+102965 ) = 0
+102964 08:09:38.765165 bind(0, {sa_family=AF_LOCAL, sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"}, 110
+102964 08:09:38.765478 getsockname(0, 
+102965 08:09:38.766460 connect(1, {sa_family=AF_LOCAL, sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"}, 110
+102965 08:09:38.766755 --- SIGUSR1 {si_signo=SIGUSR1, si_code=SI_USER, si_pid=102964, si_uid=0} ---
+102965 08:09:38.767060 +++ exited with 0 +++
+102964 08:09:38.767159 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=102965, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+102964 08:09:38.767558 +++ exited with 0 +++
+102964 mym_scall_rval=0
+102964 mym_scall_rval=0
+102965 mym_scall_rval=0
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102964 mym_waitpid=102964
+102965 mym_waitpid=102964
+102965 mym_waitpid=102964
+102965 mym_waitpid=102964
+102965 mym_waitpid=102964
+102965 mym_waitpid=102964
+102964 mym_waitpid=102965
+102964 mym_waitpid=102965
+102964 mym_waitpid=102965
+102964 mym_waitpid=102965
+102964 mym_waitpid=102965
+102964 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102965 mym_waitpid=102965
+102964 {sa_family=AF_LOCAL, sun_path="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678"}, [111]
+102964 syscall_enter_mym_scno=0  sys_name=read
+102964 syscall_enter_mym_scno=10  sys_name=mprotect
+102964 syscall_enter_mym_scno=10  sys_name=mprotect
+102964 syscall_enter_mym_scno=10  sys_name=mprotect
+102964 syscall_enter_mym_scno=10  sys_name=mprotect
+102964 syscall_enter_mym_scno=11  sys_name=munmap
+102964 syscall_enter_mym_scno=12  sys_name=brk
+102965 syscall_enter_mym_scno=13  sys_name=rt_sigaction
+102965 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+102965 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+102964 syscall_enter_mym_scno=158  sys_name=arch_prctl
+102964 syscall_enter_mym_scno=2  sys_name=open
+102964 syscall_enter_mym_scno=2  sys_name=open
+102964 syscall_enter_mym_scno=21  sys_name=access
+102964 syscall_enter_mym_scno=21  sys_name=access
+102964 syscall_enter_mym_scno=21  sys_name=access
+102964 syscall_enter_mym_scno=231  sys_name=exit_group
+102965 syscall_enter_mym_scno=231  sys_name=exit_group
+102964 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=3  sys_name=close
+102965 syscall_enter_mym_scno=3  sys_name=close
+102965 syscall_enter_mym_scno=3  sys_name=close
+102964 syscall_enter_mym_scno=41  sys_name=socket
+102965 syscall_enter_mym_scno=41  sys_name=socket
+102965 syscall_enter_mym_scno=42  sys_name=connect
+102964 syscall_enter_mym_scno=43  sys_name=accept
+102964 syscall_enter_mym_scno=49  sys_name=bind
+102964 syscall_enter_mym_scno=5  sys_name=fstat
+102964 syscall_enter_mym_scno=5  sys_name=fstat
+102964 syscall_enter_mym_scno=50  sys_name=listen
+102964 syscall_enter_mym_scno=51  sys_name=getsockname
+102964 syscall_enter_mym_scno=56  sys_name=clone
+102964 syscall_enter_mym_scno=59  sys_name=execve
+102964 syscall_enter_mym_scno=61  sys_name=wait4
+102964 syscall_enter_mym_scno=62  sys_name=kill
+102964 syscall_enter_mym_scno=87  sys_name=unlink
+102964 syscall_enter_mym_scno=87  sys_name=unlink
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_enter_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=0  sys_name=read
+102964 syscall_exit_mym_scno=10  sys_name=mprotect
+102964 syscall_exit_mym_scno=10  sys_name=mprotect
+102964 syscall_exit_mym_scno=10  sys_name=mprotect
+102964 syscall_exit_mym_scno=10  sys_name=mprotect
+102964 syscall_exit_mym_scno=11  sys_name=munmap
+102964 syscall_exit_mym_scno=12  sys_name=brk
+102965 syscall_exit_mym_scno=13  sys_name=rt_sigaction
+102965 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+102965 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+102964 syscall_exit_mym_scno=158  sys_name=arch_prctl
+102964 syscall_exit_mym_scno=2  sys_name=open
+102964 syscall_exit_mym_scno=2  sys_name=open
+102964 syscall_exit_mym_scno=21  sys_name=access
+102964 syscall_exit_mym_scno=21  sys_name=access
+102964 syscall_exit_mym_scno=21  sys_name=access
+102964 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=3  sys_name=close
+102965 syscall_exit_mym_scno=3  sys_name=close
+102965 syscall_exit_mym_scno=3  sys_name=close
+102964 syscall_exit_mym_scno=41  sys_name=socket
+102965 syscall_exit_mym_scno=41  sys_name=socket
+102965 syscall_exit_mym_scno=42  sys_name=connect
+102964 syscall_exit_mym_scno=43  sys_name=accept
+102964 syscall_exit_mym_scno=49  sys_name=bind
+102964 syscall_exit_mym_scno=5  sys_name=fstat
+102964 syscall_exit_mym_scno=5  sys_name=fstat
+102964 syscall_exit_mym_scno=50  sys_name=listen
+102964 syscall_exit_mym_scno=51  sys_name=getsockname
+102964 syscall_exit_mym_scno=56  sys_name=clone
+102964 syscall_exit_mym_scno=59  sys_name=execve
+102964 syscall_exit_mym_scno=61  sys_name=wait4
+102964 syscall_exit_mym_scno=62  sys_name=kill
+102964 syscall_exit_mym_scno=87  sys_name=unlink
+102964 syscall_exit_mym_scno=87  sys_name=unlink
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964 syscall_exit_mym_scno=9  sys_name=mmap
+102964  <unfinished ...>
+102964  <unfinished ...>
+102964  <unfinished ...>
+102964  <unfinished ...>
+102965  <unfinished ...>
+102965  <unfinished ...>
+102965  <unfinished ...>
+sun_path.test: failed test: ../strace -ff -tt -ebind,connect,getsockname ./net-accept-connect 123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 output mismatch

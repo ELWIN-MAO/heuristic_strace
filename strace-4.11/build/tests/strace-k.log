@@ -1,0 +1,1 @@
+strace-k.test: skipped test: strace -k is not available

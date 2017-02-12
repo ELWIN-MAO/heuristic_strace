@@ -1,0 +1,8 @@
+nanosleep\(\{0, 222222222\}, \{0, 110978029\}\) = \? ERESTART_RESTARTBLOCK \(Interrupted by signal\)
+--- SIGALRM \{si_signo=SIGALRM, si_code=SI_KERNEL\} ---
+(nanosleep\((\{0, 222222222\}), 0x7ffee7217630|restart_syscall\(<\.\.\. resuming interrupted nanosleep \.\.\.>)\) = 0
+\+\+\+ exited with 0 \+\+\+
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

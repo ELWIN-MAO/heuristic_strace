@@ -1,0 +1,22 @@
+fstatat64-fstatat64.o: ../../tests/fstatat64.c /usr/include/stdc-predef.h \
+ ../config.h /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h ../../tests/fstatat.c \
+ ../../tests/xstatx.c
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/syscall.h:
+
+../../tests/fstatat.c:
+
+../../tests/xstatx.c:

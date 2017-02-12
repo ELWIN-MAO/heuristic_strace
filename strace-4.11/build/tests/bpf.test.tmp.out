@@ -1,0 +1,10 @@
+bpf\(BPF_MAP_CREATE, \{map_type=BPF_MAP_TYPE_UNSPEC, key_size=4, value_size=8, max_entries=256\}, 48\) += -1 .*
+bpf\(BPF_MAP_LOOKUP_ELEM, \{map_fd=-1, key=0xdeadbeef\}, 48\) += -1 .*
+bpf\(BPF_MAP_UPDATE_ELEM, \{map_fd=-1, key=0xdeadbeef, value=0xbadc0ded, flags=BPF_ANY\}, 48\) += -1 .*
+bpf\(BPF_MAP_DELETE_ELEM, \{map_fd=-1, key=0xdeadbeef\}, 48\) += -1 .*
+bpf\(BPF_MAP_GET_NEXT_KEY, \{map_fd=-1, key=0xdeadbeef\}, 48\) += -1 .*
+bpf\(BPF_PROG_LOAD, \{prog_type=BPF_PROG_TYPE_UNSPEC, insn_cnt=1, insns=0x55fe1a849d80, license="GPL", log_level=42, log_size=4096, log_buf=0x55fe1aa4b040, kern_version=0\}, 48\) += -1 .*
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

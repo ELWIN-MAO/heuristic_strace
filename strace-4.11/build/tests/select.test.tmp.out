@@ -1,0 +1,9 @@
+select(5, [3 4], [3 4], [3 4], NULL) = 1 ()
+select(5, NULL, [1 2 3 4], NULL, {789985, 789986}) = 3 (out [1 2 4], left {789985, 789984})
+select(-1, NULL, 0x5578af161040, NULL, NULL) = -1 EINVAL (Invalid argument)
+select(1025, [3], [], NULL, {0, 123}) = 0 (Timeout)
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

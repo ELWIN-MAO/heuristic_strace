@@ -1,0 +1,286 @@
+
+mym_waitpid=103532
+
+mym_waitpid=103532
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=103532
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=96  sys_name=gettimeofday
+gettimeofday(
+mym_waitpid=103532
+
+syscall_exit_mym_scno=96  sys_name=gettimeofday
+{1489666180, 820600}, NULL
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=96  sys_name=gettimeofday
+gettimeofday(
+mym_waitpid=103532
+
+syscall_exit_mym_scno=96  sys_name=gettimeofday
+{1489666180, 821093}, {tz_minuteswest=0, tz_dsttime=0}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=164  sys_name=settimeofday
+settimeofday({-1, 1000000000}, {tz_minuteswest=0, tz_dsttime=0}
+mym_waitpid=103532
+
+syscall_exit_mym_scno=164  sys_name=settimeofday
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 EINVAL (Invalid argument)
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=1  sys_name=write
+
+mym_waitpid=103532
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_waitpid=103532
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=103532
++++ exited with 0 +++

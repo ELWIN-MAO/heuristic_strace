@@ -1,0 +1,531 @@
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137
+555c1c0df000-555c1c0e0000 r-xp 00000000 08:01 2490699                    /home/elwin/strace_src/strace-4.11/build/tests/pc
+555c1c2df000-555c1c2e0000 r--p 00000000 08:01 2490699                    /home/elwin/strace_src/strace-4.11/build/tests/pc
+555c1c2e0000-555c1c2e1000 rw-p 00001000 08:01 2490699                    /home/elwin/strace_src/strace-4.11/build/tests/pc
+7f05440ef000-7f05442af000 r-xp 00000000 08:01 2888353                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f05442af000-7f05444ae000 ---p 001c0000 08:01 2888353                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f05444ae000-7f05444b2000 r--p 001bf000 08:01 2888353                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f05444b2000-7f05444b4000 rw-p 001c3000 08:01 2888353                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f05444b4000-7f05444b8000 rw-p 00000000 00:00 0 
+7f05444bf000-7f05444c2000 r-xp 00000000 08:01 2888377                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f05444c2000-7f05446c1000 ---p 00003000 08:01 2888377                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f05446c1000-7f05446c2000 r--p 00002000 08:01 2888377                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f05446c2000-7f05446c3000 rw-p 00003000 08:01 2888377                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f05446c7000-7f05446ed000 r-xp 00000000 08:01 2888325                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f05448ea000-7f05448ec000 rw-p 00000000 00:00 0 
+7f05448ec000-7f05448ed000 r--p 00025000 08:01 2888325                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f05448ed000-7f05448ee000 rw-p 00026000 08:01 2888325                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f05448ee000-7f05448f0000 rw-p 00000000 00:00 0 
+7f05448f0000-7f05448f2000 rw-p 00000000 00:00 0 
+7ffdd8f3e000-7ffdd8f60000 rw-p 00000000 00:00 0                          [stack]
+7ffdd8ff7000-7ffdd8ff9000 r--p 00000000 00:00 0                          [vvar]
+7ffdd8ff9000-7ffdd8ffb000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+mym_waitpid=102508
+
+mym_waitpid=102508
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=59  sys_name=execve
+[00007f6e0ca12cf7] execve("./pc", ["./pc"], [/* 65 vars */]
+mym_waitpid=102508
+
+mym_waitpid=102508
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=12  sys_name=brk
+[00007f05446e12e9] brk(NULL
+mym_waitpid=102508
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x555c1d4b3000
+) = 0x555c1d4b3000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=21  sys_name=access
+[00007f05446e21b7] access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=102508
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05448f0000
+) = 0x7f05448f0000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=21  sys_name=access
+[00007f05446e21b7] access("/etc/ld.so.preload", R_OK
+mym_waitpid=102508
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=2  sys_name=open
+[00007f05446e2157] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+mym_waitpid=102508
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=5  sys_name=fstat
+[00007f05446e20e4] fstat(3, 
+mym_waitpid=102508
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=97388, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 97388, PROT_READ, MAP_PRIVATE, 3, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05448cf000
+) = 0x7f05448cf000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=3  sys_name=close
+[00007f05446e2257] close(3
+mym_waitpid=102508
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=21  sys_name=access
+[00007f05446e21b7] access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=102508
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=2  sys_name=open
+[00007f05446e2157] open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC
+mym_waitpid=102508
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=0  sys_name=read
+[00007f05446e2177] read(3, 
+mym_waitpid=102508
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=5  sys_name=fstat
+[00007f05446e20e4] fstat(3, 
+mym_waitpid=102508
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=14608, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05444bf000
+) = 0x7f05444bf000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x7f05444c2000, 2093056, PROT_NONE
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(0x7f05446c1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05446c1000
+) = 0x7f05446c1000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=3  sys_name=close
+[00007f05446e2257] close(3
+mym_waitpid=102508
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=21  sys_name=access
+[00007f05446e21b7] access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=102508
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=2  sys_name=open
+[00007f05446e2157] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC
+mym_waitpid=102508
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=0  sys_name=read
+[00007f05446e2177] read(3, 
+mym_waitpid=102508
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=5  sys_name=fstat
+[00007f05446e20e4] fstat(3, 
+mym_waitpid=102508
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0755, st_size=1864888, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05440ef000
+) = 0x7f05440ef000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x7f05442af000, 2093056, PROT_NONE
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(0x7f05444ae000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05444ae000
+) = 0x7f05444ae000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(0x7f05444b4000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05444b4000
+) = 0x7f05444b4000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=3  sys_name=close
+[00007f05446e2257] close(3
+mym_waitpid=102508
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05448ef000
+) = 0x7f05448ef000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05448eb000
+) = 0x7f05448eb000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=9  sys_name=mmap
+[00007f05446e22aa] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f05448ea000
+) = 0x7f05448ea000
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+[00007f05446c7c5f] arch_prctl(ARCH_SET_FS, 0x7f05448eb700
+mym_waitpid=102508
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x7f05444ae000, 16384, PROT_READ
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x7f05446c1000, 4096, PROT_READ
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x555c1c2df000, 4096, PROT_READ
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+[00007f05446e2347] mprotect(0x7f05448ec000, 4096, PROT_READ
+mym_waitpid=102508
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=11  sys_name=munmap
+[00007f05446e2327] munmap(0x7f05448cf000, 97388
+mym_waitpid=102508
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=1  sys_name=write
+[00007f05441e5a10] write(-1, NULL, 16
+mym_waitpid=102508
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=11  sys_name=munmap
+[00007f05441efe87] munmap(0x555c1c0df8e0, 0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 EINVAL (Invalid argument)
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=56  sys_name=clone
+[00007f05441ba9d6] clone(
+mym_sys_clone_exit=0
+
+mym_waitpid=102508
+
+mym_waitpid=102508
+
+syscall_exit_mym_scno=56  sys_name=clone
+
+mym_sys_clone_exit=4
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f05448eb9d0
+mym_scall_rval=0x1906d
+) = 102509
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=61  sys_name=wait4
+[00007f05441ba5b0] wait4(-1, 
+mym_waitpid=102509
+../strace: Process 102509 attached
+
+mym_waitpid=102509
+
+syscall_enter_mym_scno=11  sys_name=munmap
+ <unfinished ...>
+[pid 102509] [00007f05441efe87] munmap(0x555c1c0df000, 8192
+mym_waitpid=102509
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102509
+[pid 102509] [0000555c1c0df9a1] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x555c1c0df9a1} ---
+
+mym_waitpid=102509
+[pid 102509] [????????????????] +++ killed by SIGSEGV (core dumped) +++
+
+syscall_exit_mym_scno=61  sys_name=wait4
+[00007f05441ba5b0] <... wait4 resumed> [{WIFSIGNALED(s) && WTERMSIG(s) == SIGSEGV && WCOREDUMP(s)}], 0, NULL
+mym_scall_rval=0x1906d
+) = 102509
+
+mym_waitpid=102508
+[00007f05441ba5b0] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=102509, si_uid=0, si_status=SIGSEGV, si_utime=0, si_stime=0} ---
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=3  sys_name=close
+[00007f05441e6040] close(0
+mym_waitpid=102508
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=2  sys_name=open
+[00007f05441e5790] open("/proc/self/maps", O_RDONLY
+mym_waitpid=102508
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=40  sys_name=sendfile
+[00007f05441ea1da] sendfile(1, 0, NULL, 4096
+mym_waitpid=102508
+
+syscall_exit_mym_scno=40  sys_name=sendfile
+
+mym_scall_rval=0x81c
+) = 2076
+
+mym_waitpid=102508
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+[00007f05441bacc8] exit_group(0)        = ?
+
+mym_waitpid=102508
+[????????????????] +++ exited with 0 +++
+pc.test: failed test: 

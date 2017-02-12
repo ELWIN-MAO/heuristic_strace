@@ -1,0 +1,24 @@
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP
+connect(0<TCP:[374906]>, {sa_family=AF_INET, sin_port=htons(59273), sin_addr=inet_addr("127.0.0.1")}, 16
+sendto(0<TCP:[127.0.0.1:57138->127.0.0.1:59273]
+close(0<TCP:[127.0.0.1:57138->127.0.0.1:59273]>
++++ exited with 0 +++
+127.0.0.1:57138 127.0.0.1:59273
+result: 
+ sys_name=exit_group
+ sys_name=close
+ sys_name=close
+ sys_name=socket
+ sys_name=connect
+ sys_name=sendto
+ sys_name=close
+ sys_name=close
+ sys_name=socket
+ sys_name=connect
+ sys_name=sendto
+...>
+...>
+...>
+...>
+...>
+...>

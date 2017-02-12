@@ -1,0 +1,13 @@
+fcntl(0, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=-2379362051860529427, l_len=-2379362048367726579}) = -1 EINVAL (Invalid argument)
+fcntl(0, F_SETLKW, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=-2379362051860529427, l_len=-2379362048367726579}) = -1 EINVAL (Invalid argument)
+fcntl(0, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=0, l_len=4096}) = 0
+fcntl(0, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=4096, l_pid=0}) = 0
+fcntl(0, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=4096}) = 0
+fcntl(0, F_SETLK64, 0x7ffe664a4640) = -1 EINVAL (Invalid argument)
+fcntl(0, F_SETLKW64, 0x7ffe664a4640) = -1 EINVAL (Invalid argument)
+fcntl(0, F_GETLK64, 0x7ffe664a4640) = -1 EINVAL (Invalid argument)
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

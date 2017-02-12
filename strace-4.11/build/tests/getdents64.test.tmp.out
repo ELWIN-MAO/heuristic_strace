@@ -1,0 +1,7 @@
+getdents64(0, [{d_ino=2491386, d_off=3539870932030788430, d_reclen=24, d_type=DT_DIR, d_name="."}, {d_ino=2490480, d_off=4576621732010379221, d_reclen=24, d_type=DT_DIR, d_name=".."}, {d_ino=2491387, d_off=9223372036854775807, d_reclen=280, d_type=DT_REG, d_name="A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nZ"}], 8192) = 328
+getdents64(0, [], 8192) = 0
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

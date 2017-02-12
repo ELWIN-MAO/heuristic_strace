@@ -1,0 +1,2733 @@
+
+mym_waitpid=101061
+
+mym_waitpid=101061
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=59  sys_name=execve
+101061 execve("/usr/bin/time", ["/usr/bin/time", "ls"], [/* 65 vars */]
+mym_waitpid=101061
+
+mym_waitpid=101061
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=12  sys_name=brk
+101061 brk(NULL
+mym_waitpid=101061
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x18af000
+) = 0x18af000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=21  sys_name=access
+101061 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101061
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b14f7000
+) = 0x7f46b14f7000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=21  sys_name=access
+101061 access("/etc/ld.so.preload", R_OK
+mym_waitpid=101061
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=2  sys_name=open
+101061 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+mym_waitpid=101061
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101061 fstat(3, 
+mym_waitpid=101061
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=97388, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(NULL, 97388, PROT_READ, MAP_PRIVATE, 3, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b14d7000
+) = 0x7f46b14d7000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=3  sys_name=close
+101061 close(3
+mym_waitpid=101061
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=21  sys_name=access
+101061 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101061
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=2  sys_name=open
+101061 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC
+mym_waitpid=101061
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=0  sys_name=read
+101061 read(3, 
+mym_waitpid=101061
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101061 fstat(3, 
+mym_waitpid=101061
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0755, st_size=1864888, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b0eff000
+) = 0x7f46b0eff000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101061 mprotect(0x7f46b10bf000, 2093056, PROT_NONE
+mym_waitpid=101061
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(0x7f46b12be000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b12be000
+) = 0x7f46b12be000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(0x7f46b12c4000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b12c4000
+) = 0x7f46b12c4000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=3  sys_name=close
+101061 close(3
+mym_waitpid=101061
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b14f3000
+) = 0x7f46b14f3000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101061 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101061
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f46b14f2000
+) = 0x7f46b14f2000
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+101061 arch_prctl(ARCH_SET_FS, 0x7f46b14f3700
+mym_waitpid=101061
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101061 mprotect(0x7f46b12be000, 16384, PROT_READ
+mym_waitpid=101061
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101061 mprotect(0x602000, 4096, PROT_READ
+mym_waitpid=101061
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101061 mprotect(0x7f46b14f4000, 4096, PROT_READ
+mym_waitpid=101061
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=11  sys_name=munmap
+101061 munmap(0x7f46b14d7000, 97388
+mym_waitpid=101061
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=56  sys_name=clone
+101061 clone(
+mym_sys_clone_exit=0
+
+mym_waitpid=101061
+
+mym_waitpid=101062
+
+mym_waitpid=101061
+
+syscall_exit_mym_scno=56  sys_name=clone
+
+mym_sys_clone_exit=4
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f46b14f39d0
+mym_scall_rval=0x18ac6
+) = 101062
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101061 rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+ <unfinished ...>
+101062 execve("/usr/local/sbin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101061
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+ <unfinished ...>
+101061 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+101062 <... execve resumed> 
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101061 rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+ <unfinished ...>
+101062 execve("/usr/local/bin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101061
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+ <unfinished ...>
+101061 <... rt_sigaction resumed> {SIG_DFL, [], 0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+101062 <... execve resumed> 
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=61  sys_name=wait4
+101061 wait4(-1, 
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+ <unfinished ...>
+101062 execve("/usr/sbin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+101062 execve("/usr/bin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+101062 execve("/sbin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=59  sys_name=execve
+101062 execve("/bin/ls", ["ls"], [/* 65 vars */]
+mym_waitpid=101062
+
+mym_waitpid=101062
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=12  sys_name=brk
+101062 brk(NULL
+mym_waitpid=101062
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x86f000
+) = 0x86f000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869cf2000
+) = 0x7f7869cf2000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.preload", R_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=97388, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 97388, PROT_READ, MAP_PRIVATE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869ccf000
+) = 0x7f7869ccf000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=130224, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f786989f000
+) = 0x7f786989f000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f78698be000, 2093056, PROT_NONE
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f7869abd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869abd000
+) = 0x7f7869abd000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f7869abf000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869abf000
+) = 0x7f7869abf000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0755, st_size=1864888, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f78694cf000
+) = 0x7f78694cf000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f786968f000, 2093056, PROT_NONE
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f786988e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f786988e000
+) = 0x7f786988e000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f7869894000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869894000
+) = 0x7f7869894000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=456632, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869cf1000
+) = 0x7f7869cf1000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f786925f000
+) = 0x7f786925f000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f78692cd000, 2097152, PROT_NONE
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f78694cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f78694cd000
+) = 0x7f78694cd000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=14608, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869057000
+) = 0x7f7869057000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f786905a000, 2093056, PROT_NONE
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f7869259000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869259000
+) = 0x7f7869259000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=21  sys_name=access
+101062 access("/etc/ld.so.nohwcap", F_OK
+mym_waitpid=101062
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832
+mym_scall_rval=0x340
+) = 832
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0755, st_size=138744, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7868e37000
+) = 0x7f7868e37000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f7868e4f000, 2093056, PROT_NONE
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f786904e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f786904e000
+) = 0x7f786904e000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(0x7f7869050000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869050000
+) = 0x7f7869050000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869cf0000
+) = 0x7f7869cf0000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7869cea000
+) = 0x7f7869cea000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+101062 arch_prctl(ARCH_SET_FS, 0x7f7869cea800
+mym_waitpid=101062
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f786988e000, 16384, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f786904e000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f7869259000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f78694cd000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f7869abd000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x61d000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+101062 mprotect(0x7f7869cec000, 4096, PROT_READ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=11  sys_name=munmap
+101062 munmap(0x7f7869ccf000, 97388
+mym_waitpid=101062
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=218  sys_name=set_tid_address
+101062 set_tid_address(0x7f7869ceaad0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=218  sys_name=set_tid_address
+
+mym_scall_rval=0x18ac6
+) = 101062
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=273  sys_name=set_robust_list
+101062 set_robust_list(0x7f7869ceaae0, 24
+mym_waitpid=101062
+
+syscall_exit_mym_scno=273  sys_name=set_robust_list
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101062 rt_sigaction(SIGRTMIN, {0x7f7868e3cb90, [], SA_RESTORER|SA_SIGINFO, 0x7f7868e483d0}, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+NULL, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101062 rt_sigaction(SIGRT_1, {0x7f7868e3cc20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7868e483d0}, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+NULL, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+101062 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+NULL, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=97  sys_name=getrlimit
+101062 getrlimit(RLIMIT_STACK, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=97  sys_name=getrlimit
+{rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=137  sys_name=statfs
+101062 statfs("/sys/fs/selinux", 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=137  sys_name=statfs
+0x7ffe36d29bf0
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=137  sys_name=statfs
+101062 statfs("/selinux", 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=137  sys_name=statfs
+0x7ffe36d29bf0
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOENT (No such file or directory)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=12  sys_name=brk
+101062 brk(NULL
+mym_waitpid=101062
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x86f000
+) = 0x86f000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=12  sys_name=brk
+101062 brk(0x890000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x890000
+) = 0x890000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/proc/filesystems", O_RDONLY
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0444, st_size=0, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024
+mym_scall_rval=0x158
+) = 344
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=0  sys_name=read
+101062 read(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=0  sys_name=read
+"", 1024
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFREG|0644, st_size=10219008, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=9  sys_name=mmap
+101062 mmap(NULL, 10219008, PROT_READ, MAP_PRIVATE, 3, 0
+mym_waitpid=101062
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7f7868477000
+) = 0x7f7868477000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+101062 ioctl(1, TCGETS
+mym_waitpid=101062
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe36d29850
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOTTY (Inappropriate ioctl for device)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+101062 ioctl(1, TIOCGWINSZ
+mym_waitpid=101062
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe36d29910
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOTTY (Inappropriate ioctl for device)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=2  sys_name=open
+101062 open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+mym_waitpid=101062
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFDIR|0755, st_size=12288, ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=78  sys_name=getdents
+101062 getdents(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=78  sys_name=getdents
+/* 211 entries */, 32768
+mym_scall_rval=0x1bd8
+) = 7128
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=12  sys_name=brk
+101062 brk(0x8ba000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x8ba000
+) = 0x8ba000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=12  sys_name=brk
+101062 brk(0x8b1000
+mym_waitpid=101062
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_scall_rval=0x8b1000
+) = 0x8b1000
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=78  sys_name=getdents
+101062 getdents(3, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=78  sys_name=getdents
+/* 0 entries */, 32768
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(3
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=5  sys_name=fstat
+101062 fstat(1, 
+mym_waitpid=101062
+
+syscall_exit_mym_scno=5  sys_name=fstat
+{st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+101062 ioctl(1, TCGETS
+mym_waitpid=101062
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe36d27310
+mym_scall_rval=0xffffffffffffffff
+) = -1 ENOTTY (Inappropriate ioctl for device)
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=1  sys_name=write
+101062 write(1, "adjtimex\nadjtimex.o\naio\naio.o\nbp"..., 2345
+mym_waitpid=101062
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x929
+) = 2345
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(1
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=3  sys_name=close
+101062 close(2
+mym_waitpid=101062
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101062
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+101062 exit_group(0)                    = ?
+
+mym_waitpid=101062
+101062 +++ exited with 0 +++
+
+syscall_exit_mym_scno=61  sys_name=wait4
+101061 <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, {ru_utime={0, 8000}, ru_stime={0, 0}, ...}
+mym_scall_rval=0x18ac6
+) = 101062
+
+mym_waitpid=101061
+101061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=101062, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101061 rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 
+mym_waitpid=101061
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+101061 rt_sigaction(SIGQUIT, {SIG_DFL, [QUIT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 
+mym_waitpid=101061
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f46b0f344a0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0.00", 4
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x4
+) = 4
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "u", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "r", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0.00", 4
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x4
+) = 4
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "y", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "m", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0:00.01", 7
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x7
+) = 7
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "l", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "p", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "d", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "57%", 3
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "C", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "P", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "U", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "(", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "v", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "g", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "x", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "+", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "v", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "g", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "d", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "2464", 4
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x4
+) = 4
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "m", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "x", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "r", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "i", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "d", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "n", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, ")", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "k", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "\n", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "i", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "n", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "p", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "u", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "+", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "o", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "u", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "p", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "u", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "(", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "m", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "j", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "o", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "r", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "+", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "126", 3
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x3
+) = 3
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "m", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "i", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "n", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "o", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "r", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, ")", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "p", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "g", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "e", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "f", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "u", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "l", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "t", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, " ", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "0", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "w", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "a", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "p", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "s", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=1  sys_name=write
+101061 write(2, "\n", 1
+mym_waitpid=101061
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_scall_rval=0x1
+) = 1
+
+mym_waitpid=101061
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+101061 exit_group(0)                    = ?
+
+mym_waitpid=101061
+101061 +++ exited with 0 +++

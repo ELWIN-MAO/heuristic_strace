@@ -1,0 +1,45 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ strace (4.11-1ubuntu3) xenial; urgency=high
+ .
+   * Patch lseek test-suite to ignore libc generated lseek calls.
+Author: Dimitri John Ledkov <xnox@ubuntu.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- strace-4.11.orig/syscall.c
++++ strace-4.11/syscall.c
+@@ -798,7 +798,7 @@ trace_syscall_entering(struct tcb *tcp)
+ 		return res;
+ 	if (res == 1)
+ 		res = get_syscall_args(tcp);
+-        tprintf("\nmym_scno=%ld\n", (tcp->scno));
++        tprintf("\nsyscall_enter_mym_scno=%ld\n", (tcp->scno));
+ 
+ 	if (res != 1) {
+ 		printleader(tcp);
+@@ -893,6 +893,8 @@ trace_syscall_exiting(struct tcb *tcp)
+ 	int res;
+ 	long u_error;
+ 
++        tprintf("\nsyscall_exit_mym_scno=%ld\n", (tcp->scno));
++
+ 	/* Measure the exit time as early as possible to avoid errors. */
+ 	if (Tflag || cflag)
+ 		gettimeofday(&tv, NULL);

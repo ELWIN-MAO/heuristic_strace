@@ -1,0 +1,6 @@
+recvmsg(0, {msg_name(16)={sa_family=AF_INET, sin_port=htons(53182), sin_addr=inet_addr("127.0.0.1")}, msg_iov(1)=[{"data", 4}], msg_controllen=152, [{cmsg_len=28, cmsg_level=SOL_IP, cmsg_type=IP_PKTINFO, {ipi_ifindex=if_nametoindex("lo"), ipi_spec_dst=inet_addr("127.0.0.1"), ipi_addr=inet_addr("127.0.0.1")}}, {cmsg_len=20, cmsg_level=SOL_IP, cmsg_type=IP_TTL, {ttl=64}}, {cmsg_len=17, cmsg_level=SOL_IP, cmsg_type=IP_TOS, {tos=0}}, {cmsg_len=20, cmsg_level=SOL_IP, cmsg_type=IP_RECVOPTS, {opts=0x01000000}}, {cmsg_len=16, cmsg_level=SOL_IP, cmsg_type=IP_RETOPTS}, {cmsg_len=32, cmsg_level=SOL_IP, cmsg_type=IP_ORIGDSTADDR, {sa_family=AF_INET, sin_port=htons(48626), sin_addr=inet_addr("127.0.0.1")}}], msg_flags=0}, 0) = 4
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

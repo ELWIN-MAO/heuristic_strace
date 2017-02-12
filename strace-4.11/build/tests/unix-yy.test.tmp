@@ -1,0 +1,476 @@
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103334 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103335 
+103334 ) = 0
+103334 ) = 0
+103334 ) = 0
+103334 ) = 0
+103334 ) = 0<UNIX:[376006]>
+103334 ) = 0
+103334 ) = 0
+103334 ) = 0
+103334 ) = 1<UNIX:[376007->374989,"unix-yy-local-stream"]>
+103334 ) = 0
+103334 ) = 0
+103335 ) = 1<UNIX:[374989]>
+103335 ) = 0
+103335 ) = 0
+103335 ) = 0
+103334 08:09:40.519062 close(3</etc/ld.so.cache>
+103334 08:09:40.520138 close(3</lib/x86_64-linux-gnu/libc-2.23.so>
+103334 08:09:40.521435 close(0</dev/pts/0>
+103334 08:09:40.521559 close(1</home/elwin/strace_src/strace-4.11/build/tests/unix-yy.log>
+103334 08:09:40.521683 socket(PF_LOCAL, SOCK_STREAM, 0
+103334 08:09:40.522078 bind(0<UNIX:[376006]>, {sa_family=AF_LOCAL, sun_path="unix-yy-local-stream"}, 23
+103334 08:09:40.522374 listen(0<UNIX:[376006,"unix-yy-local-stream"]>, 5
+103334 08:09:40.522571 getsockname(0<UNIX:[376006,"unix-yy-local-stream"]>, 
+103334 08:09:40.523024 accept(0<UNIX:[376006,"unix-yy-local-stream"]>, 
+103335 08:09:40.523363 socket(PF_LOCAL, SOCK_STREAM, 0
+103335 08:09:40.523621 close(0<UNIX:[376006,"unix-yy-local-stream"]>
+103335 08:09:40.523800 connect(1<UNIX:[374989]>, {sa_family=AF_LOCAL, sun_path="unix-yy-local-stream"}, 23
+103334 08:09:40.524283 close(0<UNIX:[376006,"unix-yy-local-stream"]>
+103335 08:09:40.524609 --- SIGUSR1 {si_signo=SIGUSR1, si_code=SI_USER, si_pid=103334, si_uid=0} ---
+103335 08:09:40.524680 close(1<UNIX:[374989->376007]>
+103335 08:09:40.525017 +++ exited with 0 +++
+103334 08:09:40.525132 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=103335, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+103334 08:09:40.525247 close(1<UNIX:[376007,"unix-yy-local-stream"]>
+103334 08:09:40.526001 +++ exited with 0 +++
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103334 mym_scall_rval=0
+103335 mym_scall_rval=0
+103335 mym_scall_rval=0
+103335 mym_scall_rval=0
+103334 mym_scall_rval=0x1
+103335 mym_scall_rval=0x1
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103334 mym_waitpid=103334
+103335 mym_waitpid=103334
+103335 mym_waitpid=103334
+103335 mym_waitpid=103334
+103335 mym_waitpid=103334
+103335 mym_waitpid=103334
+103335 mym_waitpid=103334
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103334 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103335 mym_waitpid=103335
+103334 {sa_family=AF_LOCAL, sun_path="unix-yy-local-stream"}, [23]
+103334 {sa_family=AF_LOCAL, NULL}, [2]
+103334 syscall_enter_mym_scno=0  sys_name=read
+103334 syscall_enter_mym_scno=10  sys_name=mprotect
+103334 syscall_enter_mym_scno=10  sys_name=mprotect
+103334 syscall_enter_mym_scno=10  sys_name=mprotect
+103334 syscall_enter_mym_scno=10  sys_name=mprotect
+103334 syscall_enter_mym_scno=11  sys_name=munmap
+103334 syscall_enter_mym_scno=12  sys_name=brk
+103335 syscall_enter_mym_scno=13  sys_name=rt_sigaction
+103335 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+103335 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+103334 syscall_enter_mym_scno=158  sys_name=arch_prctl
+103334 syscall_enter_mym_scno=2  sys_name=open
+103334 syscall_enter_mym_scno=2  sys_name=open
+103334 syscall_enter_mym_scno=21  sys_name=access
+103334 syscall_enter_mym_scno=21  sys_name=access
+103334 syscall_enter_mym_scno=21  sys_name=access
+103334 syscall_enter_mym_scno=231  sys_name=exit_group
+103335 syscall_enter_mym_scno=231  sys_name=exit_group
+103334 syscall_enter_mym_scno=3  sys_name=close
+103334 syscall_enter_mym_scno=3  sys_name=close
+103334 syscall_enter_mym_scno=3  sys_name=close
+103334 syscall_enter_mym_scno=3  sys_name=close
+103334 syscall_enter_mym_scno=3  sys_name=close
+103334 syscall_enter_mym_scno=3  sys_name=close
+103335 syscall_enter_mym_scno=3  sys_name=close
+103335 syscall_enter_mym_scno=3  sys_name=close
+103335 syscall_enter_mym_scno=34  sys_name=pause
+103334 syscall_enter_mym_scno=41  sys_name=socket
+103335 syscall_enter_mym_scno=41  sys_name=socket
+103335 syscall_enter_mym_scno=42  sys_name=connect
+103334 syscall_enter_mym_scno=43  sys_name=accept
+103334 syscall_enter_mym_scno=49  sys_name=bind
+103334 syscall_enter_mym_scno=5  sys_name=fstat
+103334 syscall_enter_mym_scno=5  sys_name=fstat
+103334 syscall_enter_mym_scno=50  sys_name=listen
+103334 syscall_enter_mym_scno=51  sys_name=getsockname
+103334 syscall_enter_mym_scno=56  sys_name=clone
+103334 syscall_enter_mym_scno=59  sys_name=execve
+103334 syscall_enter_mym_scno=61  sys_name=wait4
+103334 syscall_enter_mym_scno=62  sys_name=kill
+103334 syscall_enter_mym_scno=87  sys_name=unlink
+103334 syscall_enter_mym_scno=87  sys_name=unlink
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_enter_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=0  sys_name=read
+103334 syscall_exit_mym_scno=10  sys_name=mprotect
+103334 syscall_exit_mym_scno=10  sys_name=mprotect
+103334 syscall_exit_mym_scno=10  sys_name=mprotect
+103334 syscall_exit_mym_scno=10  sys_name=mprotect
+103334 syscall_exit_mym_scno=11  sys_name=munmap
+103334 syscall_exit_mym_scno=12  sys_name=brk
+103335 syscall_exit_mym_scno=13  sys_name=rt_sigaction
+103335 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+103335 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+103334 syscall_exit_mym_scno=158  sys_name=arch_prctl
+103334 syscall_exit_mym_scno=2  sys_name=open
+103334 syscall_exit_mym_scno=2  sys_name=open
+103334 syscall_exit_mym_scno=21  sys_name=access
+103334 syscall_exit_mym_scno=21  sys_name=access
+103334 syscall_exit_mym_scno=21  sys_name=access
+103334 syscall_exit_mym_scno=3  sys_name=close
+103334 syscall_exit_mym_scno=3  sys_name=close
+103334 syscall_exit_mym_scno=3  sys_name=close
+103334 syscall_exit_mym_scno=3  sys_name=close
+103334 syscall_exit_mym_scno=3  sys_name=close
+103334 syscall_exit_mym_scno=3  sys_name=close
+103335 syscall_exit_mym_scno=3  sys_name=close
+103335 syscall_exit_mym_scno=3  sys_name=close
+103335 syscall_exit_mym_scno=34  sys_name=pause
+103334 syscall_exit_mym_scno=41  sys_name=socket
+103335 syscall_exit_mym_scno=41  sys_name=socket
+103335 syscall_exit_mym_scno=42  sys_name=connect
+103334 syscall_exit_mym_scno=43  sys_name=accept
+103334 syscall_exit_mym_scno=49  sys_name=bind
+103334 syscall_exit_mym_scno=5  sys_name=fstat
+103334 syscall_exit_mym_scno=5  sys_name=fstat
+103334 syscall_exit_mym_scno=50  sys_name=listen
+103334 syscall_exit_mym_scno=51  sys_name=getsockname
+103334 syscall_exit_mym_scno=56  sys_name=clone
+103334 syscall_exit_mym_scno=59  sys_name=execve
+103334 syscall_exit_mym_scno=61  sys_name=wait4
+103334 syscall_exit_mym_scno=62  sys_name=kill
+103334 syscall_exit_mym_scno=87  sys_name=unlink
+103334 syscall_exit_mym_scno=87  sys_name=unlink
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334 syscall_exit_mym_scno=9  sys_name=mmap
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103334  <unfinished ...>
+103335  <unfinished ...>
+103335  <unfinished ...>
+103335  <unfinished ...>
+103335  <unfinished ...>
+103335  <unfinished ...>
+103335  <unfinished ...>

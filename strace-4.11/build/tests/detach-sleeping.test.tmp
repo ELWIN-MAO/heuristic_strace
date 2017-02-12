@@ -1,0 +1,7 @@
+../strace: Process 103585 attached
+
+mym_waitpid=103585
+
+syscall_enter_mym_scno=219  sys_name=restart_syscall
+restart_syscall(<... resuming interrupted nanosleep ...>../strace: Process 103585 detached
+ <detached ...>

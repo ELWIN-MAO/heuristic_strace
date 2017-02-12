@@ -1,0 +1,6 @@
+umount2("umount2.sample", MNT_FORCE|MNT_DETACH|MNT_EXPIRE|UMOUNT_NOFOLLOW|0x10) = -1 EINVAL (Invalid argument)
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

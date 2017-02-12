@@ -1,0 +1,3 @@
+../strace: Process 103644 attached
+../strace: [ Process PID=103644 runs in x32 mode. ]
+../strace: Process 103644 detached

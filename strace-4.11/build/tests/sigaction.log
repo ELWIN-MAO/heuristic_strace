@@ -1,0 +1,267 @@
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137
+Line 1 does not match expected pattern: ^rt_sigaction\(SIGUSR2, (\{SIG_IGN, \[HUP INT\], SA_RESTORER\|SA_RESTART, 0x[0-9a-f]+\}, \{SIG_DFL, \[\], 0\}, (0x[0-9a-f]+, )?(4|8|16)|\{SIG_IGN, \[HUP INT\], SA_RESTART\}, \{SIG_DFL, \[\], 0\}, (4|8|16)(, 0x[0-9a-f]+)?|\{SIG_IGN, \[HUP INT\], SA_RESTART\}, \{SIG_DFL, \[\], 0\}, 0x[0-9a-f]+, (4|8|16))\) = 0$
+Line 2 does not match expected pattern: ^rt_sigaction\(SIGUSR2, (\{0x[0-9a-f]+, \[QUIT TERM\], SA_RESTORER\|SA_SIGINFO, 0x[0-9a-f]+\}, \{SIG_IGN, \[HUP INT\], SA_RESTORER\|SA_RESTART, 0x[0-9a-f]+\}, (0x[0-9a-f]+, )?(4|8|16)|\{0x[0-9a-f]+, \[QUIT TERM\], SA_SIGINFO\}, \{SIG_IGN, \[HUP INT\], SA_RESTART\}, (4|8|16)(, 0x[0-9a-f]+)?|\{0x[0-9a-f]+, \[QUIT TERM\], SA_SIGINFO\}, \{SIG_IGN, \[HUP INT\], SA_RESTART\}, 0x[0-9a-f]+, (4|8|16))\) = 0$
+Line 3 does not match expected pattern: ^rt_sigaction\(SIGUSR2, (\{SIG_DFL, \[\], SA_RESTORER, 0x[0-9a-f]+\}, \{0x[0-9a-f]+, \[QUIT TERM\], SA_RESTORER\|SA_SIGINFO, 0x[0-9a-f]+\}, (0x[0-9a-f]+, )?(4|8|16)|\{SIG_DFL, \[\], 0\}, \{0x[0-9a-f]+, \[QUIT TERM\], SA_SIGINFO\}, (4|8|16)(, 0x[0-9a-f]+)?|\{SIG_DFL, \[\], 0\}, \{0x[0-9a-f]+, \[QUIT TERM\], SA_SIGINFO\}, 0x[0-9a-f]+, (4|8|16))\) = 0$
+Line 4 does not match expected pattern: ^rt_sigaction\(SIGUSR2, (\{SIG_DFL, ~\[HUP( ((RT|SIGRT)[^] ]+|[3-9][0-9]|1[0-9][0-9]))*\], SA_RESTORER, 0x[0-9a-f]+\}, \{SIG_DFL, \[\], SA_RESTORER, 0x[0-9a-f]+\}, (0x[0-9a-f]+, )?(4|8|16)|\{SIG_DFL, ~\[HUP( ((RT|SIGRT)[^] ]+|[3-9][0-9]|1[0-9][0-9]))*\], 0\}, \{SIG_DFL, \[\], 0\}, (4|8|16)(, 0x[0-9a-f]+)?|\{SIG_DFL, ~\[HUP( ((RT|SIGRT)[^] ]+|[3-9][0-9]|1[0-9][0-9]))*\], 0\}, \{SIG_DFL, \[\], 0\}, 0x[0-9a-f]+, (4|8|16))\) = 0$
+Line 5 does not match expected string: +++ exited with 0 +++
+
+mym_waitpid=102818
+
+mym_waitpid=102818
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=102818
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=102818
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+rt_sigaction(SIGUSR2, {SIG_IGN, [HUP INT], SA_RESTORER|SA_RESTART, 0x7f9d941a44a0}, 
+mym_waitpid=102818
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{SIG_DFL, [], 0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+rt_sigaction(SIGUSR2, {0x55f4c2cabb50, [QUIT TERM], SA_RESTORER|SA_SIGINFO, 0x7f9d941a44a0}, 
+mym_waitpid=102818
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{SIG_IGN, [HUP INT], SA_RESTORER|SA_RESTART, 0x7f9d941a44a0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+rt_sigaction(SIGUSR2, {SIG_DFL, [], SA_RESTORER, 0x7f9d941a44a0}, 
+mym_waitpid=102818
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{0x55f4c2cabb50, [QUIT TERM], SA_RESTORER|SA_SIGINFO, 0x7f9d941a44a0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=13  sys_name=rt_sigaction
+rt_sigaction(SIGUSR2, {SIG_DFL, ~[HUP RTMIN RT_1], SA_RESTORER, 0x7f9d941a44a0}, 
+mym_waitpid=102818
+
+syscall_exit_mym_scno=13  sys_name=rt_sigaction
+{SIG_DFL, [], SA_RESTORER, 0x7f9d941a44a0}, 8
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102818
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=102818
++++ exited with 0 +++
+sigaction.test: failed test: ../strace -ert_sigaction ./sigaction output mismatch

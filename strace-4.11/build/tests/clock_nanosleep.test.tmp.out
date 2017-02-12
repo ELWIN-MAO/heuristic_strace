@@ -1,0 +1,15 @@
+clock_nanosleep(CLOCK_REALTIME, 0, {0, 789985}, NULL) = 0
+clock_nanosleep(CLOCK_REALTIME, 0, NULL, 0x7ffe9ebfb0e0) = -1 EFAULT (Bad address)
+clock_nanosleep(CLOCK_REALTIME, 0, {0, 789985}, 0x7ffe9ebfb0e0) = 0
+clock_nanosleep(CLOCK_MONOTONIC, 0, {0, 1000000000}, 0x7ffe9ebfb0e0) = -1 EINVAL (Invalid argument)
+setitimer(ITIMER_REAL, {it_interval={0, 222222}, it_value={0, 111111}}, NULL) = 0
+clock_nanosleep(CLOCK_REALTIME, 0, {0, 999999999}, {0, 888351065}) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+--- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
+clock_gettime(CLOCK_REALTIME, {1489666174, 763053975}) = 0
+clock_nanosleep(CLOCK_REALTIME, TIMER_ABSTIME, {1489666175, 763053975}, 0x7ffe9ebfb0e0) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

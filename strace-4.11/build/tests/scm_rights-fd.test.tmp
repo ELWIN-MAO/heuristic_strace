@@ -1,0 +1,404 @@
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102709 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102710 
+102709 , [3<socket:[375954]>, 4<socket:[375955]>]
+102709 ) = 0
+102709 ) = 0
+102709 ) = 16
+102710 ) = 16
+102709 08:09:38.382957 socketpair(PF_LOCAL, SOCK_STREAM, 0
+102709 08:09:38.383236 setsockopt(3<socket:[375954]>, SOL_SOCKET, SO_PASSCRED, [1], 4
+102710 08:09:38.383997 recvmsg(0<socket:[375954]>, 
+102709 08:09:38.384241 sendmsg(1<socket:[375955]>, {msg_name(0)=NULL, msg_iov(1)=[{"\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x74\x07\x5b\x22", 16}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [3</dev/null>, 4</dev/zero>, 5</home/elwin/strace_src/strace-4.11/build/tests/scm_rights-fd.test.tmp.dir/A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nZ>]}], msg_flags=0}, 0
+102710 08:09:38.384771 +++ exited with 0 +++
+102709 08:09:38.384862 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=102710, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+102709 08:09:38.385153 +++ exited with 0 +++
+102710 {msg_name(0)=NULL, msg_iov(1)=[{"\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x74\x07\x5b\x22", 16}], msg_controllen=64, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=102709, uid=0, gid=0}}, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [3</dev/null>, 4</dev/zero>, 5</home/elwin/strace_src/strace-4.11/build/tests/scm_rights-fd.test.tmp.dir/A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nZ>]}], msg_flags=0}, 0
+102709 mym_scall_rval=0
+102709 mym_scall_rval=0
+102709 mym_scall_rval=0x10
+102710 mym_scall_rval=0x10
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102709 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102710 mym_waitpid=102709
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102709 mym_waitpid=102710
+102710 mym_waitpid=102710
+102710 mym_waitpid=102710
+102709 syscall_enter_mym_scno=0  sys_name=read
+102709 syscall_enter_mym_scno=10  sys_name=mprotect
+102709 syscall_enter_mym_scno=10  sys_name=mprotect
+102709 syscall_enter_mym_scno=10  sys_name=mprotect
+102709 syscall_enter_mym_scno=10  sys_name=mprotect
+102709 syscall_enter_mym_scno=11  sys_name=munmap
+102709 syscall_enter_mym_scno=12  sys_name=brk
+102709 syscall_enter_mym_scno=158  sys_name=arch_prctl
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=2  sys_name=open
+102709 syscall_enter_mym_scno=21  sys_name=access
+102709 syscall_enter_mym_scno=21  sys_name=access
+102709 syscall_enter_mym_scno=21  sys_name=access
+102709 syscall_enter_mym_scno=231  sys_name=exit_group
+102710 syscall_enter_mym_scno=231  sys_name=exit_group
+102709 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=3  sys_name=close
+102710 syscall_enter_mym_scno=3  sys_name=close
+102710 syscall_enter_mym_scno=3  sys_name=close
+102710 syscall_enter_mym_scno=3  sys_name=close
+102709 syscall_enter_mym_scno=33  sys_name=dup2
+102710 syscall_enter_mym_scno=33  sys_name=dup2
+102709 syscall_enter_mym_scno=46  sys_name=sendmsg
+102710 syscall_enter_mym_scno=47  sys_name=recvmsg
+102709 syscall_enter_mym_scno=5  sys_name=fstat
+102709 syscall_enter_mym_scno=5  sys_name=fstat
+102709 syscall_enter_mym_scno=53  sys_name=socketpair
+102709 syscall_enter_mym_scno=54  sys_name=setsockopt
+102709 syscall_enter_mym_scno=56  sys_name=clone
+102709 syscall_enter_mym_scno=59  sys_name=execve
+102709 syscall_enter_mym_scno=61  sys_name=wait4
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_enter_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=0  sys_name=read
+102709 syscall_exit_mym_scno=10  sys_name=mprotect
+102709 syscall_exit_mym_scno=10  sys_name=mprotect
+102709 syscall_exit_mym_scno=10  sys_name=mprotect
+102709 syscall_exit_mym_scno=10  sys_name=mprotect
+102709 syscall_exit_mym_scno=11  sys_name=munmap
+102709 syscall_exit_mym_scno=12  sys_name=brk
+102709 syscall_exit_mym_scno=158  sys_name=arch_prctl
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=2  sys_name=open
+102709 syscall_exit_mym_scno=21  sys_name=access
+102709 syscall_exit_mym_scno=21  sys_name=access
+102709 syscall_exit_mym_scno=21  sys_name=access
+102709 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=3  sys_name=close
+102710 syscall_exit_mym_scno=3  sys_name=close
+102710 syscall_exit_mym_scno=3  sys_name=close
+102710 syscall_exit_mym_scno=3  sys_name=close
+102709 syscall_exit_mym_scno=33  sys_name=dup2
+102710 syscall_exit_mym_scno=33  sys_name=dup2
+102709 syscall_exit_mym_scno=46  sys_name=sendmsg
+102710 syscall_exit_mym_scno=47  sys_name=recvmsg
+102709 syscall_exit_mym_scno=5  sys_name=fstat
+102709 syscall_exit_mym_scno=5  sys_name=fstat
+102709 syscall_exit_mym_scno=53  sys_name=socketpair
+102709 syscall_exit_mym_scno=54  sys_name=setsockopt
+102709 syscall_exit_mym_scno=56  sys_name=clone
+102709 syscall_exit_mym_scno=59  sys_name=execve
+102709 syscall_exit_mym_scno=61  sys_name=wait4
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709 syscall_exit_mym_scno=9  sys_name=mmap
+102709  <unfinished ...>
+102709  <unfinished ...>
+102709  <unfinished ...>
+102709  <unfinished ...>
+102709  <unfinished ...>
+102710  <unfinished ...>
+102710  <unfinished ...>

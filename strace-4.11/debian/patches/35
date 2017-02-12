@@ -1,0 +1,36 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ strace (4.11-1ubuntu3) xenial; urgency=high
+ .
+   * Patch lseek test-suite to ignore libc generated lseek calls.
+Author: Dimitri John Ledkov <xnox@ubuntu.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- strace-4.11.orig/socketutils.c
++++ strace-4.11/socketutils.c
+@@ -169,7 +169,7 @@ inet_parse_response(const char *proto_na
+ 
+                    if( strcmp(dst_buf,local_ip_addr[i]) !=0 )  
+ 
+-                      is_local_ip=0
++                      is_local_ip=0;
+                } 
+                
+                if(is_local_ip==1)

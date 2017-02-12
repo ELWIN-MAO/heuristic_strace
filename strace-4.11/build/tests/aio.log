@@ -1,0 +1,340 @@
+1,6c1,326
+< io_setup(2, [140697876099072]) = 0
+< io_submit(140697876099072, 2, [{data=0xfeedface11111111, pread, reqprio=11, fildes=0, buf=0x55f867938040, nbytes=4096, offset=1004211328502398701}, {data=0xfeedface22222222, pread, reqprio=22, fildes=0, buf=0x55f867936040, nbytes=8192, offset=1004211331995201549}]) = 2
+< io_getevents(140697876099072, 2, 3, [{data=0xfeedface11111111, obj=0x7ffeea5ca230, res=4096, res2=0}, {data=0xfeedface22222222, obj=0x7ffeea5ca270, res=8192, res2=0}], {0, 123456789}) = 2
+< io_cancel(140697876099072, {data=0xdeadbeefbadc0ded, pread, reqprio=99, fildes=-42}, 0x7ffeea5ca1f0) = -1 EINVAL (Invalid argument)
+< io_submit(140697876099072, 2, [{data=0xfeed11111111face, preadv, reqprio=111, fildes=0, iovec=[{0x55f867938040, 1024}, {0x55f867938440, 3072}], offset=1004211328502398701}, {data=0xfeed22222222face, preadv, reqprio=222, fildes=0, iovec=[{0x55f867936040, 2048}, {0x55f867936840, 6144}], offset=1004211331995201549}]) = 2
+< io_destroy(140697876099072) = 0
+---
+> 
+> mym_waitpid=101163
+> 
+> mym_waitpid=101163
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=59  sys_name=execve
+> 
+> mym_waitpid=101163
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=59  sys_name=execve
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=0  sys_name=read
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=0  sys_name=read
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=158  sys_name=arch_prctl
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=158  sys_name=arch_prctl
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=11  sys_name=munmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=11  sys_name=munmap
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=206  sys_name=io_setup
+> io_setup(2, 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=206  sys_name=io_setup
+> [140697876099072]
+> mym_scall_rval=0
+> ) = 0
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=209  sys_name=io_submit
+> io_submit(140697876099072, 2, [{data=0xfeedface11111111, pread, reqprio=11, fildes=0, buf=0x55f867938040, nbytes=4096, offset=1004211328502398701}, {data=0xfeedface22222222, pread, reqprio=22, fildes=0, buf=0x55f867936040, nbytes=8192, offset=1004211331995201549}]
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=209  sys_name=io_submit
+> 
+> mym_scall_rval=0x2
+> ) = 2
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=208  sys_name=io_getevents
+> io_getevents(140697876099072, 2, 3, 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=208  sys_name=io_getevents
+> [{data=0xfeedface11111111, obj=0x7ffeea5ca230, res=4096, res2=0}, {data=0xfeedface22222222, obj=0x7ffeea5ca270, res=8192, res2=0}], {0, 123456789}
+> mym_scall_rval=0x2
+> ) = 2
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=210  sys_name=io_cancel
+> io_cancel(140697876099072, {data=0xdeadbeefbadc0ded, pread, reqprio=99, fildes=-42}, 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=210  sys_name=io_cancel
+> 0x7ffeea5ca1f0
+> mym_scall_rval=0xffffffffffffffff
+> ) = -1 EINVAL (Invalid argument)
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=209  sys_name=io_submit
+> io_submit(140697876099072, 2, [{data=0xfeed11111111face, preadv, reqprio=111, fildes=0, iovec=[{0x55f867938040, 1024}, {0x55f867938440, 3072}], offset=1004211328502398701}, {data=0xfeed22222222face, preadv, reqprio=222, fildes=0, iovec=[{0x55f867936040, 2048}, {0x55f867936840, 6144}], offset=1004211331995201549}]
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=209  sys_name=io_submit
+> 
+> mym_scall_rval=0x2
+> ) = 2
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=207  sys_name=io_destroy
+> io_destroy(140697876099072
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=207  sys_name=io_destroy
+> 
+> mym_scall_rval=0
+> ) = 0
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=1  sys_name=write
+> 
+> mym_waitpid=101163
+> 
+> syscall_exit_mym_scno=1  sys_name=write
+> 
+> mym_waitpid=101163
+> 
+> syscall_enter_mym_scno=231  sys_name=exit_group
+> 
+> mym_waitpid=101163
+8,11d327
+< lo IP Address 127.0.0.1
+< ens33 IP Address 192.168.159.137
+< IP Address 127.0.0.1
+< IP Address 192.168.159.137
+aio.test: failed test: ../strace -a14 -e trace=io_setup,io_submit,io_getevents,io_cancel,io_destroy ./aio output mismatch

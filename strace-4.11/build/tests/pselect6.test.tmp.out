@@ -1,0 +1,11 @@
+pselect6(5, [3 4], [3 4], [1 2], NULL, {NULL, 8}) = 1 (out [4])
+pselect6(5, NULL, [1 2 3 4], NULL, {789985, 789986}, NULL) = 3 (out [1 2 4], left {789985, 786073})
+pselect6(-1, NULL, 0x564a0ec56040, NULL, NULL, {[HUP CHLD], 8}) = -1 EINVAL (Invalid argument)
+pselect6(1025, [3], [], NULL, {0, 123}, {[HUP CHLD], 8}) = 0 (Timeout)
+pselect6(0, NULL, NULL, NULL, {0, 222222222}, {[HUP CHLD], 8}) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

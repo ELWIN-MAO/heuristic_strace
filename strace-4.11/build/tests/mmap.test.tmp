@@ -1,0 +1,325 @@
+
+mym_waitpid=102231
+
+mym_waitpid=102231
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=102231
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409d71000
+) = 0x7fb409d71000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 97388, PROT_READ, MAP_PRIVATE, 3, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409d4f000
+) = 0x7fb409d4f000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409777000
+) = 0x7fb409777000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+mprotect(0x7fb409937000, 2093056, PROT_NONE
+mym_waitpid=102231
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(0x7fb409b36000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409b36000
+) = 0x7fb409b36000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(0x7fb409b3c000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409b3c000
+) = 0x7fb409b3c000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409d70000
+) = 0x7fb409d70000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409d6f000
+) = 0x7fb409d6f000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0x7fb409d6b000
+) = 0x7fb409d6b000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+mprotect(0x7fb409b36000, 16384, PROT_READ
+mym_waitpid=102231
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+mprotect(0x55f406bcd000, 4096, PROT_READ
+mym_waitpid=102231
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+mprotect(0x7fb409d6c000, 4096, PROT_READ
+mym_waitpid=102231
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=11  sys_name=munmap
+munmap(0x7fb409d4f000, 97388
+mym_waitpid=102231
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=9  sys_name=mmap
+mmap(0xfacefeed000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0xcafedeadbeef000
+mym_waitpid=102231
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_scall_rval=0xfacefeed000
+) = 0xfacefeed000
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+mprotect(0xfacefeed000, 12288, PROT_NONE
+mym_waitpid=102231
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=11  sys_name=munmap
+munmap(0xfacefeed000, 12288
+mym_waitpid=102231
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=1  sys_name=write
+
+mym_waitpid=102231
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_waitpid=102231
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=102231
++++ exited with 0 +++

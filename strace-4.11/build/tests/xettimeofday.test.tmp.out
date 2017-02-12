@@ -1,0 +1,8 @@
+gettimeofday({1489666180, 820600}, NULL) = 0
+gettimeofday({1489666180, 821093}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+settimeofday({-1, 1000000000}, {tz_minuteswest=0, tz_dsttime=0}) = -1 EINVAL (Invalid argument)
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

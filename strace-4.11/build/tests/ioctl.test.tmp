@@ -1,0 +1,341 @@
+
+mym_waitpid=101932
+
+mym_waitpid=101932
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=101932
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, TCGETS
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f110
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, MMTIMER_GETRES
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f108
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, VIDIOC_ENUMINPUT
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, HIDIOCGRDESCSIZE or HIDIOCGVERSION
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f108
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, HIDIOCGPHYS(8)
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f108
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, EVIOCGBIT(EV_KEY, 8)
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f108
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, MIXER_READ(13) or OTPSELECT, [MTD_OTP_OFF]
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=16  sys_name=ioctl
+ioctl(-1, _IOC(_IOC_READ, 0xde, 0xad, 0x08)
+mym_waitpid=101932
+
+syscall_exit_mym_scno=16  sys_name=ioctl
+, 0x7ffe7501f108
+mym_scall_rval=0xffffffffffffffff
+) = -1 EBADF (Bad file descriptor)
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=1  sys_name=write
+
+mym_waitpid=101932
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_waitpid=101932
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=101932
++++ exited with 0 +++

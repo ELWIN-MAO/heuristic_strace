@@ -1,0 +1,393 @@
+
+mym_waitpid=103436
+
+mym_waitpid=103436
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=103436
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=22  sys_name=pipe
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=22  sys_name=pipe
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=61  sys_name=wait4
+wait4(103437, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=61  sys_name=wait4
+0x7fff16bc4a5c, WNOHANG|__WALL, NULL
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=247  sys_name=waitid
+waitid(P_PID, 103437, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=247  sys_name=waitid
+{}, WNOHANG|WEXITED, NULL
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=1  sys_name=write
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=1  sys_name=write
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=61  sys_name=wait4
+wait4(103437, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=61  sys_name=wait4
+[{WIFEXITED(s) && WEXITSTATUS(s) == 42}], 0, {ru_utime={0, 0}, ru_stime={0, 0}, ru_maxrss=632, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=20, ru_majflt=0, ru_nswap=0, ru_inblock=0, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=2, ru_nivcsw=0}
+mym_scall_rval=0x1940d
+) = 103437
+
+mym_waitpid=103436
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=103437, si_uid=0, si_status=42, si_utime=0, si_stime=0} ---
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=61  sys_name=wait4
+wait4(103438, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=61  sys_name=wait4
+[{WIFSIGNALED(s) && WTERMSIG(s) == SIGUSR1}], __WALL, NULL
+mym_scall_rval=0x1940e
+) = 103438
+
+mym_waitpid=103436
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=103438, si_uid=0, si_status=SIGUSR1, si_utime=0, si_stime=0} ---
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=56  sys_name=clone
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=61  sys_name=wait4
+wait4(103439, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=61  sys_name=wait4
+[{WIFSTOPPED(s) && WSTOPSIG(s) == SIGSTOP}], WSTOPPED, NULL
+mym_scall_rval=0x1940f
+) = 103439
+
+mym_waitpid=103436
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_STOPPED, si_pid=103439, si_uid=0, si_status=SIGSTOP, si_utime=0, si_stime=0} ---
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=62  sys_name=kill
+
+mym_waitpid=103436
+
+syscall_exit_mym_scno=62  sys_name=kill
+
+mym_waitpid=103436
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_CONTINUED, si_pid=103439, si_uid=0, si_status=SIGCONT, si_utime=0, si_stime=0} ---
+
+mym_waitpid=103436
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=103439, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=247  sys_name=waitid
+waitid(P_PID, 103439, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=247  sys_name=waitid
+{si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=103439, si_uid=0, si_status=0, si_utime=0, si_stime=0}, WEXITED|WSTOPPED, NULL
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=61  sys_name=wait4
+wait4(-1, 
+mym_waitpid=103436
+
+syscall_exit_mym_scno=61  sys_name=wait4
+0x7fff16bc4a5c, WNOHANG|WSTOPPED|__WALL, 0x7fff16bc4a60
+mym_scall_rval=0xffffffffffffffff
+) = -1 ECHILD (No child processes)
+
+mym_waitpid=103436
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=103436
++++ exited with 0 +++

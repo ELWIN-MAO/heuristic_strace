@@ -1,0 +1,296 @@
+1,3c1,285
+< clock_getres(CLOCK_REALTIME, {0, 1}) = 0
+< clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 7982455}) = 0
+< clock_settime(CLOCK_THREAD_CPUTIME_ID, {233811169, 233811170}) = -1 EINVAL (Invalid argument)
+---
+> 
+> mym_waitpid=101283
+> 
+> mym_waitpid=101283
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=59  sys_name=execve
+> 
+> mym_waitpid=101283
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=59  sys_name=execve
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=21  sys_name=access
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=2  sys_name=open
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=0  sys_name=read
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=0  sys_name=read
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=3  sys_name=close
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=9  sys_name=mmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=158  sys_name=arch_prctl
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=158  sys_name=arch_prctl
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=10  sys_name=mprotect
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=11  sys_name=munmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=11  sys_name=munmap
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=229  sys_name=clock_getres
+> clock_getres(CLOCK_REALTIME, 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=229  sys_name=clock_getres
+> {0, 1}
+> mym_scall_rval=0
+> ) = 0
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=5  sys_name=fstat
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=12  sys_name=brk
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=228  sys_name=clock_gettime
+> clock_gettime(CLOCK_PROCESS_CPUTIME_ID, 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=228  sys_name=clock_gettime
+> {0, 7982455}
+> mym_scall_rval=0
+> ) = 0
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=227  sys_name=clock_settime
+> clock_settime(CLOCK_THREAD_CPUTIME_ID, {233811169, 233811170}
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=227  sys_name=clock_settime
+> 
+> mym_scall_rval=0xffffffffffffffff
+> ) = -1 EINVAL (Invalid argument)
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=1  sys_name=write
+> 
+> mym_waitpid=101283
+> 
+> syscall_exit_mym_scno=1  sys_name=write
+> 
+> mym_waitpid=101283
+> 
+> syscall_enter_mym_scno=231  sys_name=exit_group
+> 
+> mym_waitpid=101283
+5,8d286
+< lo IP Address 127.0.0.1
+< ens33 IP Address 192.168.159.137
+< IP Address 127.0.0.1
+< IP Address 192.168.159.137
+clock_xettime.test: failed test: ../strace -a36 -e trace=clock_getres,clock_gettime,clock_settime ./clock_xettime output mismatch

@@ -1,0 +1,19 @@
+_newselect.o: ../../tests/_newselect.c /usr/include/stdc-predef.h \
+ ../config.h /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h ../../tests/xselect.c
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/syscall.h:
+
+../../tests/xselect.c:

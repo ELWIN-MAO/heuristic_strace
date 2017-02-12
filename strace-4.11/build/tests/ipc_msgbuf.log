@@ -1,0 +1,276 @@
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137
+Failed patterns of expected output:
+msgget\(IPC_PRIVATE, IPC_CREAT\|0700\) += [0-9]*
+msgsnd\([0-9]*, \{233811181, "STRACE_STRING\\0"\}, 14, 0\) += 0
+msgrcv\([0-9]*, \{233811181, "STRACE_STRING\\0"\}, 14, 233811181, 0\) += 14
+msgctl\([0-9]*, (IPC_64\|)?IPC_RMID, NULL\) += 0
+Actual output:
+
+mym_waitpid=102013
+
+mym_waitpid=102013
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=102013
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=102013
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=68  sys_name=msgget
+msgget(IPC_PRIVATE, IPC_CREAT|0700
+mym_waitpid=102013
+
+syscall_exit_mym_scno=68  sys_name=msgget
+
+mym_scall_rval=0x138000
+) = 1277952
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=69  sys_name=msgsnd
+msgsnd(1277952, {233811181, "STRACE_STRING\0"}, 14, 0
+mym_waitpid=102013
+
+syscall_exit_mym_scno=69  sys_name=msgsnd
+
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=70  sys_name=msgrcv
+msgrcv(1277952, 
+mym_waitpid=102013
+
+syscall_exit_mym_scno=70  sys_name=msgrcv
+{233811181, "STRACE_STRING\0"}, 14, 233811181, 0
+mym_scall_rval=0xe
+) = 14
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=71  sys_name=msgctl
+msgctl(1277952, IPC_RMID, 
+mym_waitpid=102013
+
+syscall_exit_mym_scno=71  sys_name=msgctl
+NULL
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=102013
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=102013
++++ exited with 0 +++
+ipc_msgbuf.test: failed test: ../strace -v -e msgget,msgsnd,msgrcv,msgctl ./ipc_msgbuf output mismatch

@@ -1,0 +1,6 @@
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137
+fstat(0, {st_dev=makedev(8, 1), st_ino=2491366, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=43147718418, st_atime=1969/12/31-15:59:17.000000135, st_mtime=1969/12/31-15:59:19.000000246, st_ctime=2017/03/16-08:09:35.984840228}) = 0
++++ exited with 0 +++

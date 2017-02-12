@@ -1,0 +1,9 @@
+semget\(IPC_PRIVATE, 1, 0600\) += 622592
+semctl\(622592, 0, (IPC_64\|)?IPC_STAT, \[?0x7ffd24a1a240\]?\) += 0
+semctl\(0, 0, (IPC_64\|)?SEM_INFO, \[?0x7ffd24a1a210\]?\) += 0
+semctl\(622592, 0, (IPC_64\|)?SEM_STAT, \[?0x7ffd24a1a240\]?\) += 622592
+semctl\(622592, 0, (IPC_64\|)?IPC_RMID, \[?0\]?\) += 0
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

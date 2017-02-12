@@ -1,0 +1,9 @@
+timer_create(CLOCK_REALTIME, {sigev_value={int=-1159983635, ptr=0xdeadbeefbadc0ded}, sigev_signo=4207869677, sigev_notify=SIGEV_NONE}, [0]) = 0
+timer_create(CLOCK_MONOTONIC, {sigev_value={int=-1159983635, ptr=0xdeadbeefbadc0ded}, sigev_signo=SIGALRM, sigev_notify=SIGEV_SIGNAL}, [1]) = 0
+timer_create(CLOCK_REALTIME, {sigev_value={int=-1159983635, ptr=0xdeadbeefbadc0ded}, sigev_signo=SIGALRM, sigev_notify=SIGEV_THREAD, sigev_notify_function=0xdeadbeefbadc0ded, sigev_notify_attributes=0xcafef00dfacefeed}, [2]) = 0
+timer_create(CLOCK_MONOTONIC, {sigev_value={int=-1159983635, ptr=0xdeadbeefbadc0ded}, sigev_signo=SIGALRM, sigev_notify=SIGEV_THREAD_ID, sigev_notify_thread_id=103037}, [3]) = 0
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

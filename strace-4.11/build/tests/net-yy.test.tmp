@@ -1,0 +1,448 @@
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102430 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102431 
+102430 >, 
+102431 >, "data", 4, MSG_DONTROUTE, NULL, 0
+102430 ) = 0
+102430 ) = 0
+102430 ) = 0
+102430 ) = 0
+102430 ) = 0<TCP:[373486]>
+102430 ) = 0
+102430 ) = 0
+102430 ) = 0
+102430 ) = 1<TCP:[127.0.0.1:59273->127.0.0.1:57138]>
+102430 ) = 0
+102430 ) = 4
+102430 ) = 0
+102431 ) = 0
+102431 ) = 0<TCP:[374906]>
+102431 ) = 0
+102431 ) = 4
+102431 ) = 0
+102430 08:09:37.329328 close(3</etc/ld.so.cache>
+102430 08:09:37.330712 close(3</lib/x86_64-linux-gnu/libc-2.23.so>
+102430 08:09:37.332319 close(0</dev/pts/0>
+102430 08:09:37.332488 close(1</home/elwin/strace_src/strace-4.11/build/tests/net-yy.log>
+102430 08:09:37.332644 socket(PF_INET, SOCK_STREAM, IPPROTO_IP
+102430 08:09:37.332964 bind(0<TCP:[373486]>, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("127.0.0.1")}, 16
+102430 08:09:37.333234 listen(0<TCP:[373486]>, 5
+102430 08:09:37.333459 getsockname(0<TCP:[127.0.0.1:59273]>, 
+102430 08:09:37.334154 accept(0<TCP:[127.0.0.1:59273]>, 
+102431 08:09:37.334355 close(0<TCP:[127.0.0.1:59273]>
+102431 08:09:37.334786 socket(PF_INET, SOCK_STREAM, IPPROTO_IP
+102431 08:09:37.335039 connect(0<TCP:[374906]>, {sa_family=AF_INET, sin_port=htons(59273), sin_addr=inet_addr("127.0.0.1")}, 16
+102430 08:09:37.335516 close(0<TCP:[127.0.0.1:59273]>
+102431 08:09:37.335624 sendto(0<TCP:[127.0.0.1:57138->127.0.0.1:59273]
+102430 08:09:37.337634 recvfrom(1<TCP:[127.0.0.1:59273->127.0.0.1:57138]
+102431 08:09:37.339390 close(0<TCP:[127.0.0.1:57138->127.0.0.1:59273]>
+102431 08:09:37.339987 +++ exited with 0 +++
+102430 08:09:37.340103 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=102431, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+102430 08:09:37.340183 close(1<TCP:[127.0.0.1:59273->127.0.0.1:57138]>
+102430 08:09:37.340622 +++ exited with 0 +++
+102430 "data", 5, MSG_WAITALL, NULL, NULL
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102430 mym_scall_rval=0
+102431 mym_scall_rval=0
+102431 mym_scall_rval=0
+102431 mym_scall_rval=0
+102431 mym_scall_rval=0
+102430 mym_scall_rval=0x1
+102430 mym_scall_rval=0x4
+102431 mym_scall_rval=0x4
+102430 mym_socket_commu 127.0.0.1:59273 127.0.0.1:57138
+102431 mym_socket_commu 127.0.0.1:57138 127.0.0.1:59273
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102430 mym_waitpid=102430
+102431 mym_waitpid=102430
+102431 mym_waitpid=102430
+102431 mym_waitpid=102430
+102431 mym_waitpid=102430
+102431 mym_waitpid=102430
+102431 mym_waitpid=102430
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102430 mym_waitpid=102431
+102431 mym_waitpid=102431
+102431 mym_waitpid=102431
+102431 mym_waitpid=102431
+102431 mym_waitpid=102431
+102431 mym_waitpid=102431
+102431 mym_waitpid=102431
+102430 {sa_family=AF_INET, sin_port=htons(59273), sin_addr=inet_addr("127.0.0.1")}, [16]
+102430 {sa_family=AF_INET, sin_port=htons(57138), sin_addr=inet_addr("127.0.0.1")}, [16]
+102430 socket_to_pid result: 
+102431 socket_to_pid result: 
+102430 syscall_enter_mym_scno=0  sys_name=read
+102430 syscall_enter_mym_scno=10  sys_name=mprotect
+102430 syscall_enter_mym_scno=10  sys_name=mprotect
+102430 syscall_enter_mym_scno=10  sys_name=mprotect
+102430 syscall_enter_mym_scno=10  sys_name=mprotect
+102430 syscall_enter_mym_scno=11  sys_name=munmap
+102430 syscall_enter_mym_scno=12  sys_name=brk
+102430 syscall_enter_mym_scno=158  sys_name=arch_prctl
+102430 syscall_enter_mym_scno=2  sys_name=open
+102430 syscall_enter_mym_scno=2  sys_name=open
+102430 syscall_enter_mym_scno=21  sys_name=access
+102430 syscall_enter_mym_scno=21  sys_name=access
+102430 syscall_enter_mym_scno=21  sys_name=access
+102430 syscall_enter_mym_scno=231  sys_name=exit_group
+102431 syscall_enter_mym_scno=231  sys_name=exit_group
+102430 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=3  sys_name=close
+102431 syscall_enter_mym_scno=3  sys_name=close
+102431 syscall_enter_mym_scno=3  sys_name=close
+102430 syscall_enter_mym_scno=41  sys_name=socket
+102431 syscall_enter_mym_scno=41  sys_name=socket
+102431 syscall_enter_mym_scno=42  sys_name=connect
+102430 syscall_enter_mym_scno=43  sys_name=accept
+102431 syscall_enter_mym_scno=44  sys_name=sendto
+102430 syscall_enter_mym_scno=45  sys_name=recvfrom
+102430 syscall_enter_mym_scno=49  sys_name=bind
+102430 syscall_enter_mym_scno=5  sys_name=fstat
+102430 syscall_enter_mym_scno=5  sys_name=fstat
+102430 syscall_enter_mym_scno=50  sys_name=listen
+102430 syscall_enter_mym_scno=51  sys_name=getsockname
+102430 syscall_enter_mym_scno=56  sys_name=clone
+102430 syscall_enter_mym_scno=59  sys_name=execve
+102430 syscall_enter_mym_scno=61  sys_name=wait4
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_enter_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=0  sys_name=read
+102430 syscall_exit_mym_scno=10  sys_name=mprotect
+102430 syscall_exit_mym_scno=10  sys_name=mprotect
+102430 syscall_exit_mym_scno=10  sys_name=mprotect
+102430 syscall_exit_mym_scno=10  sys_name=mprotect
+102430 syscall_exit_mym_scno=11  sys_name=munmap
+102430 syscall_exit_mym_scno=12  sys_name=brk
+102430 syscall_exit_mym_scno=158  sys_name=arch_prctl
+102430 syscall_exit_mym_scno=2  sys_name=open
+102430 syscall_exit_mym_scno=2  sys_name=open
+102430 syscall_exit_mym_scno=21  sys_name=access
+102430 syscall_exit_mym_scno=21  sys_name=access
+102430 syscall_exit_mym_scno=21  sys_name=access
+102430 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=3  sys_name=close
+102431 syscall_exit_mym_scno=3  sys_name=close
+102431 syscall_exit_mym_scno=3  sys_name=close
+102430 syscall_exit_mym_scno=41  sys_name=socket
+102431 syscall_exit_mym_scno=41  sys_name=socket
+102431 syscall_exit_mym_scno=42  sys_name=connect
+102430 syscall_exit_mym_scno=43  sys_name=accept
+102431 syscall_exit_mym_scno=44  sys_name=sendto
+102430 syscall_exit_mym_scno=45  sys_name=recvfrom
+102430 syscall_exit_mym_scno=49  sys_name=bind
+102430 syscall_exit_mym_scno=5  sys_name=fstat
+102430 syscall_exit_mym_scno=5  sys_name=fstat
+102430 syscall_exit_mym_scno=50  sys_name=listen
+102430 syscall_exit_mym_scno=51  sys_name=getsockname
+102430 syscall_exit_mym_scno=56  sys_name=clone
+102430 syscall_exit_mym_scno=59  sys_name=execve
+102430 syscall_exit_mym_scno=61  sys_name=wait4
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430 syscall_exit_mym_scno=9  sys_name=mmap
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102430  <unfinished ...>
+102431  <unfinished ...>
+102431  <unfinished ...>
+102431  <unfinished ...>
+102431  <unfinished ...>
+102431  <unfinished ...>
+102431  <unfinished ...>

@@ -1,0 +1,7 @@
+setitimer(ITIMER_REAL, {it_interval={789985, 789986}, it_value={789987, 789988}}, {it_interval={0, 0}, it_value={0, 0}}) = 0
+getitimer(ITIMER_REAL, {it_interval={789985, 789986}, it_value={789987, 789478}}) = 0
++++ exited with 0 +++
+lo IP Address 127.0.0.1
+ens33 IP Address 192.168.159.137
+IP Address 127.0.0.1
+IP Address 192.168.159.137

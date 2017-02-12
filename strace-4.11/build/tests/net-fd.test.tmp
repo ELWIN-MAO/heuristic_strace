@@ -1,0 +1,444 @@
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102392 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102393 
+102392 ) = 0<socket:[374131]>
+102392 ) = 0
+102392 ) = 0
+102392 ) = 0
+102392 ) = 1<socket:[375892]>
+102393 ) = 1<socket:[375893]>
+102393 ) = 0
+102392 08:09:37.268237 socket(PF_LOCAL, SOCK_STREAM, 0
+102392 08:09:37.268511 bind(0<socket:[374131]>, {sa_family=AF_LOCAL, sun_path="net-fd-local-stream"}, 22
+102392 08:09:37.268767 listen(0<socket:[374131]>, 5
+102392 08:09:37.268941 getsockname(0<socket:[374131]>, 
+102392 08:09:37.269447 accept(0<socket:[374131]>, 
+102393 08:09:37.270012 socket(PF_LOCAL, SOCK_STREAM, 0
+102393 08:09:37.270373 connect(1<socket:[375893]>, {sa_family=AF_LOCAL, sun_path="net-fd-local-stream"}, 22
+102393 08:09:37.270857 --- SIGUSR1 {si_signo=SIGUSR1, si_code=SI_USER, si_pid=102392, si_uid=0} ---
+102393 08:09:37.271248 +++ exited with 0 +++
+102392 08:09:37.271377 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=102393, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+102392 08:09:37.272029 +++ exited with 0 +++
+102392 mym_scall_rval=0
+102392 mym_scall_rval=0
+102392 mym_scall_rval=0
+102392 mym_scall_rval=0
+102393 mym_scall_rval=0
+102392 mym_scall_rval=0x1
+102393 mym_scall_rval=0x1
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102392 mym_waitpid=102392
+102393 mym_waitpid=102392
+102393 mym_waitpid=102392
+102393 mym_waitpid=102392
+102393 mym_waitpid=102392
+102393 mym_waitpid=102392
+102392 mym_waitpid=102393
+102392 mym_waitpid=102393
+102392 mym_waitpid=102393
+102392 mym_waitpid=102393
+102392 mym_waitpid=102393
+102392 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102393 mym_waitpid=102393
+102392 {sa_family=AF_LOCAL, sun_path="net-fd-local-stream"}, [22]
+102392 {sa_family=AF_LOCAL, NULL}, [2]
+102392 syscall_enter_mym_scno=0  sys_name=read
+102392 syscall_enter_mym_scno=10  sys_name=mprotect
+102392 syscall_enter_mym_scno=10  sys_name=mprotect
+102392 syscall_enter_mym_scno=10  sys_name=mprotect
+102392 syscall_enter_mym_scno=10  sys_name=mprotect
+102392 syscall_enter_mym_scno=11  sys_name=munmap
+102392 syscall_enter_mym_scno=12  sys_name=brk
+102393 syscall_enter_mym_scno=13  sys_name=rt_sigaction
+102393 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+102393 syscall_enter_mym_scno=14  sys_name=rt_sigprocmask
+102392 syscall_enter_mym_scno=158  sys_name=arch_prctl
+102392 syscall_enter_mym_scno=2  sys_name=open
+102392 syscall_enter_mym_scno=2  sys_name=open
+102392 syscall_enter_mym_scno=21  sys_name=access
+102392 syscall_enter_mym_scno=21  sys_name=access
+102392 syscall_enter_mym_scno=21  sys_name=access
+102392 syscall_enter_mym_scno=231  sys_name=exit_group
+102393 syscall_enter_mym_scno=231  sys_name=exit_group
+102392 syscall_enter_mym_scno=3  sys_name=close
+102392 syscall_enter_mym_scno=3  sys_name=close
+102392 syscall_enter_mym_scno=3  sys_name=close
+102392 syscall_enter_mym_scno=3  sys_name=close
+102392 syscall_enter_mym_scno=3  sys_name=close
+102392 syscall_enter_mym_scno=3  sys_name=close
+102393 syscall_enter_mym_scno=3  sys_name=close
+102393 syscall_enter_mym_scno=3  sys_name=close
+102393 syscall_enter_mym_scno=34  sys_name=pause
+102392 syscall_enter_mym_scno=41  sys_name=socket
+102393 syscall_enter_mym_scno=41  sys_name=socket
+102393 syscall_enter_mym_scno=42  sys_name=connect
+102392 syscall_enter_mym_scno=43  sys_name=accept
+102392 syscall_enter_mym_scno=49  sys_name=bind
+102392 syscall_enter_mym_scno=5  sys_name=fstat
+102392 syscall_enter_mym_scno=5  sys_name=fstat
+102392 syscall_enter_mym_scno=50  sys_name=listen
+102392 syscall_enter_mym_scno=51  sys_name=getsockname
+102392 syscall_enter_mym_scno=56  sys_name=clone
+102392 syscall_enter_mym_scno=59  sys_name=execve
+102392 syscall_enter_mym_scno=61  sys_name=wait4
+102392 syscall_enter_mym_scno=62  sys_name=kill
+102392 syscall_enter_mym_scno=87  sys_name=unlink
+102392 syscall_enter_mym_scno=87  sys_name=unlink
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_enter_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=0  sys_name=read
+102392 syscall_exit_mym_scno=10  sys_name=mprotect
+102392 syscall_exit_mym_scno=10  sys_name=mprotect
+102392 syscall_exit_mym_scno=10  sys_name=mprotect
+102392 syscall_exit_mym_scno=10  sys_name=mprotect
+102392 syscall_exit_mym_scno=11  sys_name=munmap
+102392 syscall_exit_mym_scno=12  sys_name=brk
+102393 syscall_exit_mym_scno=13  sys_name=rt_sigaction
+102393 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+102393 syscall_exit_mym_scno=14  sys_name=rt_sigprocmask
+102392 syscall_exit_mym_scno=158  sys_name=arch_prctl
+102392 syscall_exit_mym_scno=2  sys_name=open
+102392 syscall_exit_mym_scno=2  sys_name=open
+102392 syscall_exit_mym_scno=21  sys_name=access
+102392 syscall_exit_mym_scno=21  sys_name=access
+102392 syscall_exit_mym_scno=21  sys_name=access
+102392 syscall_exit_mym_scno=3  sys_name=close
+102392 syscall_exit_mym_scno=3  sys_name=close
+102392 syscall_exit_mym_scno=3  sys_name=close
+102392 syscall_exit_mym_scno=3  sys_name=close
+102392 syscall_exit_mym_scno=3  sys_name=close
+102392 syscall_exit_mym_scno=3  sys_name=close
+102393 syscall_exit_mym_scno=3  sys_name=close
+102393 syscall_exit_mym_scno=3  sys_name=close
+102393 syscall_exit_mym_scno=34  sys_name=pause
+102392 syscall_exit_mym_scno=41  sys_name=socket
+102393 syscall_exit_mym_scno=41  sys_name=socket
+102393 syscall_exit_mym_scno=42  sys_name=connect
+102392 syscall_exit_mym_scno=43  sys_name=accept
+102392 syscall_exit_mym_scno=49  sys_name=bind
+102392 syscall_exit_mym_scno=5  sys_name=fstat
+102392 syscall_exit_mym_scno=5  sys_name=fstat
+102392 syscall_exit_mym_scno=50  sys_name=listen
+102392 syscall_exit_mym_scno=51  sys_name=getsockname
+102392 syscall_exit_mym_scno=56  sys_name=clone
+102392 syscall_exit_mym_scno=59  sys_name=execve
+102392 syscall_exit_mym_scno=61  sys_name=wait4
+102392 syscall_exit_mym_scno=62  sys_name=kill
+102392 syscall_exit_mym_scno=87  sys_name=unlink
+102392 syscall_exit_mym_scno=87  sys_name=unlink
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392 syscall_exit_mym_scno=9  sys_name=mmap
+102392  <unfinished ...>
+102392  <unfinished ...>
+102392  <unfinished ...>
+102392  <unfinished ...>
+102392  <unfinished ...>
+102392  <unfinished ...>
+102392  <unfinished ...>
+102393  <unfinished ...>
+102393  <unfinished ...>
+102393  <unfinished ...>
+102393  <unfinished ...>

@@ -1,0 +1,243 @@
+
+mym_waitpid=101240
+
+mym_waitpid=101240
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=59  sys_name=execve
+
+mym_waitpid=101240
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=59  sys_name=execve
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=12  sys_name=brk
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=12  sys_name=brk
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=21  sys_name=access
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=2  sys_name=open
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=2  sys_name=open
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=0  sys_name=read
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=0  sys_name=read
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=5  sys_name=fstat
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=3  sys_name=close
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=3  sys_name=close
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=9  sys_name=mmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=158  sys_name=arch_prctl
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=10  sys_name=mprotect
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=11  sys_name=munmap
+
+mym_waitpid=101240
+
+syscall_exit_mym_scno=11  sys_name=munmap
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=125  sys_name=capget
+capget({_LINUX_CAPABILITY_VERSION_3, 0}, 
+mym_waitpid=101240
+
+syscall_exit_mym_scno=125  sys_name=capget
+{CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, 0}
+mym_scall_rval=0
+) = 0
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=126  sys_name=capset
+capset({_LINUX_CAPABILITY_VERSION_3, 0}, {CAP_DAC_OVERRIDE|CAP_WAKE_ALARM, CAP_DAC_READ_SEARCH|CAP_BLOCK_SUSPEND, 0}
+mym_waitpid=101240
+
+syscall_exit_mym_scno=126  sys_name=capset
+
+mym_scall_rval=0xffffffffffffffff
+) = -1 EPERM (Operation not permitted)
+
+mym_waitpid=101240
+
+syscall_enter_mym_scno=231  sys_name=exit_group
+
+mym_waitpid=101240
++++ exited with 0 +++

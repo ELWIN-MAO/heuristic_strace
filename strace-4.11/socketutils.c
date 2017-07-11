@@ -108,7 +108,7 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
     {
         strcat(result,buff);
     }
-    tprintf("\nsocket_to_pid result: %s\n",result);
+    //tprintf("\nsocket_to_pid result: %s\n",result);
     process_opt_p_list(result);
     startup_attach();
     pclose(fstream);
@@ -184,7 +184,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                     char dst_addr[100];
                     sprintf(src_addr,"%s:%u",src_buf, ntohs(diag_msg->id.idiag_sport));
                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
-                    tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
+                    //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
                     socket_to_pid(dst_addr,src_addr); 
                     //snet_trace_flag = 0;
                 }

@@ -1,0 +1,57 @@
+diff --git a/strace-4.11/socketutils.c b/strace-4.11/socketutils.c
+index 37382bd..fae0e02 100644
+--- a/strace-4.11/socketutils.c
++++ b/strace-4.11/socketutils.c
+@@ -108,7 +108,7 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
+     {
+         strcat(result,buff);
+     }
+-    tprintf("\nsocket_to_pid result: %s\n",result);
++    //tprintf("\nsocket_to_pid result: %s\n",result);
+     process_opt_p_list(result);
+     startup_attach();
+     pclose(fstream);
+@@ -184,7 +184,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
+                     char dst_addr[100];
+                     sprintf(src_addr,"%s:%u",src_buf, ntohs(diag_msg->id.idiag_sport));
+                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
+-                    tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
++                    //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
+                     socket_to_pid(dst_addr,src_addr); 
+                     //snet_trace_flag = 0;
+                 }
+diff --git a/strace-4.11/strace.c b/strace-4.11/strace.c
+index 2c638a2..21a6673 100644
+--- a/strace-4.11/strace.c
++++ b/strace-4.11/strace.c
+@@ -2169,7 +2169,7 @@ trace(void)
+ 		print_debug_info(pid, status);
+ 
+ 	/* Look up 'pid' in our table. */
+-        tprintf("\nmym_waitpid=%d\n", pid);
++        //tprintf("\nmym_waitpid=%d\n", pid);
+ 	tcp = pid2tcb(pid);
+ 
+ 	if (!tcp) {
+diff --git a/strace-4.11/syscall.c b/strace-4.11/syscall.c
+index bad0d72..53f042b 100644
+--- a/strace-4.11/syscall.c
++++ b/strace-4.11/syscall.c
+@@ -798,7 +798,7 @@ trace_syscall_entering(struct tcb *tcp)
+ 		return res;
+ 	if (res == 1)
+ 		res = get_syscall_args(tcp);
+-        tprintf("\nsyscall_enter_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
++        //tprintf("\nsyscall_enter_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
+ 
+ 	if (res != 1) {
+ 		printleader(tcp);
+@@ -970,7 +970,7 @@ trace_syscall_exiting(struct tcb *tcp)
+ 		else
+ 			sys_res = tcp->s_ent->sys_func(tcp);
+ 	}
+-        tprintf("\nmym_scall_rval=%#lx\n", tcp->u_rval);
++        //tprintf("\nmym_scall_rval=%#lx\n", tcp->u_rval);
+ 	tprints(") ");
+ 	tabto();
+ 	u_error = tcp->u_error;

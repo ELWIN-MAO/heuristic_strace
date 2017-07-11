@@ -798,7 +798,7 @@ trace_syscall_entering(struct tcb *tcp)
 		return res;
 	if (res == 1)
 		res = get_syscall_args(tcp);
-        tprintf("\nsyscall_enter_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
+        //tprintf("\nsyscall_enter_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
 
 	if (res != 1) {
 		printleader(tcp);
@@ -970,7 +970,7 @@ trace_syscall_exiting(struct tcb *tcp)
 		else
 			sys_res = tcp->s_ent->sys_func(tcp);
 	}
-        tprintf("\nmym_scall_rval=%#lx\n", tcp->u_rval);
+        //tprintf("\nmym_scall_rval=%#lx\n", tcp->u_rval);
 	tprints(") ");
 	tabto();
 	u_error = tcp->u_error;

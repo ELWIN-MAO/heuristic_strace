@@ -2169,7 +2169,7 @@ trace(void)
 		print_debug_info(pid, status);
 
 	/* Look up 'pid' in our table. */
-        tprintf("\nmym_waitpid=%d\n", pid);
+        //tprintf("\nmym_waitpid=%d\n", pid);
 	tcp = pid2tcb(pid);
 
 	if (!tcp) {

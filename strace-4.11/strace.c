@@ -47,6 +47,14 @@
 #include "ptrace.h"
 #include "printsiginfo.h"
 
+
+int ko_fd;
+#define BUFFER_LENGTH 256  
+char stringToSend[BUFFER_LENGTH];
+static char receive[BUFFER_LENGTH]; 
+
+
+
 /* In some libc, these aren't declared. Do it ourself: */
 extern char **environ;
 extern int optind;
@@ -607,6 +615,34 @@ line_ended(void)
 	}
 }
 
+
+
+int pid_to_pname(int pid)
+{
+   //tprintf("hello log\n");
+   int ret;
+   char stringToSend[BUFFER_LENGTH];
+   sprintf(stringToSend, "%d", pid);
+   ret = write(ko_fd, stringToSend, strlen(stringToSend)+1); // Send the string to the LKM
+   if (ret < 0){
+      perror("Failed to write the message to the device.");
+      return errno;
+   }
+   ret = read(ko_fd, receive, BUFFER_LENGTH);        // Read the response from the LKM
+   if (ret < 0){
+      perror("Failed to read the message from the device.");
+      return errno;
+   }
+   receive[ret+1]='\0';
+   receive[ret-1]='\0';
+   //tprintf("The received message is: %s", receive);
+   tprintf(" %s , ", receive);
+   //tprintf("by log\n");
+   return 0;
+}
+
+
+
 void
 printleader(struct tcb *tcp)
 {
@@ -635,7 +671,11 @@ printleader(struct tcb *tcp)
 	current_tcp->curcol = 0;
 
 	if (print_pid_pfx)
-		tprintf("%-5d ", tcp->pid);
+          {
+                tprintf("%-5d ", tcp->pid);
+                pid_to_pname(tcp->pid); 
+               // tprintf("pid is: %d", tcp->pid);
+          }
 	else if (nprocs > 1 && !outfname)
 		tprintf("[pid %5u] ", tcp->pid);
 
@@ -2361,6 +2401,13 @@ restart_tracee:
 int
 main(int argc, char *argv[])
 {
+   ko_fd = open("/dev/wordcount", O_RDWR);             // Open the device with read/write access
+   if (ko_fd < 0){
+      perror("Failed to open the device...");
+      return errno;
+   }
+
+
 	init(argc, argv);
 
 	while (trace())

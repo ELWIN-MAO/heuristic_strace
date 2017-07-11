@@ -80,7 +80,7 @@ extern void print_user_desc(struct tcb *, long);
 SYS_FUNC(clone)
 {
 
-tprintf("\nmym_sys_clone_exit=%d\n",exiting(tcp));
+//tprintf("\nmym_sys_clone_exit=%d\n",exiting(tcp));
 
 
 	if (exiting(tcp)) {

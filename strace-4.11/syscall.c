@@ -892,7 +892,7 @@ trace_syscall_exiting(struct tcb *tcp)
 	struct timeval tv;
 	int res;
 	long u_error;
-        tprintf("\nsyscall_exit_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
+        //tprintf("\nsyscall_exit_mym_scno=%ld  sys_name=%s\n", (tcp->scno),(tcp->s_ent->sys_name));
 
 	/* Measure the exit time as early as possible to avoid errors. */
 	if (Tflag || cflag)

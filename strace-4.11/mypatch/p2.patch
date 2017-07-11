@@ -1,0 +1,15 @@
+diff --git a/strace-4.11/socketutils.c b/strace-4.11/socketutils.c
+index fae0e02..06bdb68 100644
+--- a/strace-4.11/socketutils.c
++++ b/strace-4.11/socketutils.c
+@@ -168,8 +168,8 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
+                 for(int i=0; i<local_ip_addr_size;i++)
+                {
+                   
+-                   printf("mym444 %s %s\n",src_buf, dst_buf);
+-                   printf("mym444 %s\n",local_ip_addr[i]);
++                   //printf("mym444 %s %s\n",src_buf, dst_buf);
++                   //printf("mym444 %s\n",local_ip_addr[i]);
+                       
+                    if( strcmp(dst_buf,local_ip_addr[i]) ==0 )  
+ 

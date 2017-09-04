@@ -49,6 +49,7 @@
 
 
 int ko_fd;
+unsigned long long eventcount=0;
 #define BUFFER_LENGTH 256  
 char stringToSend[BUFFER_LENGTH];
 static char receive[BUFFER_LENGTH]; 
@@ -669,7 +670,7 @@ printleader(struct tcb *tcp)
 	printing_tcp = tcp;
 	current_tcp = tcp;
 	current_tcp->curcol = 0;
-
+        tprintf("%llu , ", ++eventcount);
 	if (print_pid_pfx)
           {
                 tprintf("%-5d ", tcp->pid);

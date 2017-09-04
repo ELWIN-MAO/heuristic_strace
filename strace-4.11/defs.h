@@ -818,3 +818,4 @@ extern unsigned num_quals;
 #define MPERS_PRINTER_DECL(type, name) type MPERS_FUNC_NAME(name)
 
 extern struct tcb * pid2tcb(int pid) ;
+extern unsigned long long  eventcount;

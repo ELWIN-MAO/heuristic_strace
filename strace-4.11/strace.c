@@ -1880,7 +1880,8 @@ init(int argc, char *argv[])
 	 * -f: yes (there can be more pids in the future); or
 	 * -p PID1,PID2: yes (there are already more than one pid)
 	 */
-	print_pid_pfx = (outfname && followfork < 2 && (followfork == 1 || nprocs > 1));
+	//print_pid_pfx = (outfname && followfork < 2 && (followfork == 1 || nprocs > 1));
+          print_pid_pfx=1;
 }
 
 struct tcb *

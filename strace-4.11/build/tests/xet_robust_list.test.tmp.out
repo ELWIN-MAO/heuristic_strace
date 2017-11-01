@@ -1,8 +1,0 @@
-get_robust_list(103492, [0], [24]) = 0
-set_robust_list(0x7f4b3d7a0000, 24) = 0
-get_robust_list(103492, [0x7f4b3d7a0000], [24]) = 0
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

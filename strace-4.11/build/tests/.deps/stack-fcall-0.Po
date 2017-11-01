@@ -1,3 +1,0 @@
-stack-fcall-0.o: ../../tests/stack-fcall-0.c /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:

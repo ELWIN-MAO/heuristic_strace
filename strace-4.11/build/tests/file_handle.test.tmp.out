@@ -1,9 +1,0 @@
-name_to_handle_at(AT_FDCWD, ".", {handle_bytes=0}, 0x7fff153fd834, AT_SYMLINK_FOLLOW|0x1) = -1 EINVAL (Invalid argument)
-name_to_handle_at(AT_FDCWD, ".", {handle_bytes=0 => 8}, 0x7fff153fd834, AT_SYMLINK_FOLLOW) = -1 EOVERFLOW (Value too large for defined data type)
-name_to_handle_at(AT_FDCWD, ".", {handle_bytes=8, handle_type=1, f_handle=0x700026008b393eab}, [25], AT_SYMLINK_FOLLOW) = 0
-open_by_handle_at(-1, {handle_bytes=8, handle_type=1, f_handle=0x700026008b393eab}, O_RDONLY|O_DIRECTORY) = -1 EBADF (Bad file descriptor)
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

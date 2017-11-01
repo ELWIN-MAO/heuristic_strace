@@ -1,8 +1,0 @@
-getrandom("\x71\x43\x2b", 3, 0) = 3
-getrandom("\xd9\xa8\x66"..., 4, GRND_NONBLOCK) = 4
-getrandom(0x7ffe07f8d9d0, 4, GRND_NONBLOCK|GRND_RANDOM|0x3000) = -1 EINVAL (Invalid argument)
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

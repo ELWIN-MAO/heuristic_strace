@@ -1,6 +1,0 @@
-times({tms_utime=26, tms_stime=13, tms_cutime=34, tms_cstime=25}) = 1732944550
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

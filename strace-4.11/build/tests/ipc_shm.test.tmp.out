@@ -1,9 +1,0 @@
-shmget\(IPC_PRIVATE, 1, 0600\) += 2949131
-shmctl\(2949131, (IPC_64\|)?IPC_STAT, \{shm_perm=\{uid=0, gid=0, mode=0600, key=0, cuid=0, cgid=0\}, shm_segsz=1, shm_cpid=102066, shm_lpid=0, shm_nattch=0, shm_atime=0, shm_dtime=0, shm_ctime=1489666176\}\) += 0
-shmctl\(0, (IPC_64\|)?SHM_INFO, 0x7ffcfd345a90\) += 11
-shmctl\(2949131, (IPC_64\|)?SHM_STAT, 0x7ffcfd345a90\) += 2949131
-shmctl\(2949131, (IPC_64\|)?IPC_RMID, NULL\) += 0
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

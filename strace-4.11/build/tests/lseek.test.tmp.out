@@ -1,6 +1,0 @@
-lseek(-1, 1004211376030073054, SEEK_SET) = -1 EBADF (Bad file descriptor)
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

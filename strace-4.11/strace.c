@@ -637,7 +637,7 @@ int pid_to_pname(int pid)
    receive[ret+1]='\0';
    receive[ret-1]='\0';
    //tprintf("The received message is: %s", receive);
-   tprintf(" %s , ", receive);
+   tprintf(", %s , ", receive);
    //tprintf("by log\n");
    return 0;
 }

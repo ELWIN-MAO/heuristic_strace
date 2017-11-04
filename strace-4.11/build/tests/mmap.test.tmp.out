@@ -1,7 +1,0 @@
-(mmap2?|old_mmap)\(0xfacefeed000, 12288, PROT_READ\|PROT_WRITE, MAP_PRIVATE\|MAP_ANONYMOUS, -1, 0xcafedeadbeef000\) = 0xfacefeed000
-mprotect\(0xfacefeed000, 12288, PROT_NONE\) += 0
-munmap\(0xfacefeed000, 12288\) += 0
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

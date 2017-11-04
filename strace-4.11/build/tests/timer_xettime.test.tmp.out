@@ -1,8 +1,0 @@
-timer_create(CLOCK_MONOTONIC, {sigev_signo=0, sigev_notify=SIGEV_NONE}, [0]) = 0
-timer_settime(0, 0, {it_interval={233811169, 233811170}, it_value={233811171, 233811172}}, {it_interval={0, 0}, it_value={0, 0}}) = 0
-timer_gettime(0, {it_interval={233811169, 233811170}, it_value={233811171, 233693762}}) = 0
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

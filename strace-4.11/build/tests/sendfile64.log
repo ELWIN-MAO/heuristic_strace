@@ -1,1 +1,0 @@
-sendfile64.test: skipped test: ./sendfile64 ./sendfile64 exited with code 77

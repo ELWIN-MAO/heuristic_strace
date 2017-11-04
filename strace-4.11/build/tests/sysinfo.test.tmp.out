@@ -1,6 +1,0 @@
-sysinfo({uptime=149875, loads=[70048, 27520, 17248], totalram=2079223808, freeram=285249536, sharedram=42409984, bufferram=181714944, totalswap=2144333824, freeswap=2141097984, procs=337, totalhigh=0, freehigh=0, mem_unit=1}) = 0
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

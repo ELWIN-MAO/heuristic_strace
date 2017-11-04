@@ -1,6 +1,0 @@
-readlinkat(AT_FDCWD, "\x72\x65\x61\x64\x6c\x69\x6e\x6b\x61\x74\x2e\x6c\x69\x6e\x6b", "\x72\x65\x61"..., 31) = 12
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

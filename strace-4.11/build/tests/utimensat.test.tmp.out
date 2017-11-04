@@ -1,7 +1,0 @@
-utimensat(AT_FDCWD, "utimensat\nfilename", [{1489666180, 642432}, {1489666179, 642433}], AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
-utimensat(AT_FDCWD, "utimensat\nfilename", [UTIME_NOW, UTIME_OMIT], AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
-+++ exited with 0 +++
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

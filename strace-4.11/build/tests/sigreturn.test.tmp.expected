@@ -1,2 +1,0 @@
-rt_sigprocmask\(SIG_SETMASK, \[(USR2 CHLD|CHLD USR2) RT_2 RT_3 RT_4 RT_26 RT_27\], NULL, [[:digit:]]+\) += 0|osf_sigprocmask\(SIG_SETMASK, \[(USR2 CHLD|CHLD USR2) RT_2 RT_3 RT_4 RT_26 RT_27\]\) += 0 +\(old mask \[[^]]*\]\)
-(rt_)?sigreturn\((\{mask=\[(USR2 CHLD|CHLD USR2) RT_2 RT_3 RT_4 RT_26 RT_27\]\})?\) += 0

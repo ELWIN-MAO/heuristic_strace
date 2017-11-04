@@ -1,6 +1,0 @@
-sched_getattr\(0, \{size=48, sched_policy=SCHED_[A-Z]+, sched_flags=0, sched_nice=0, sched_priority=0, sched_runtime=0, sched_deadline=0, sched_period=0\}, 256, 0\) += 0
-sched_setattr\(0, \{size=48, sched_policy=SCHED_[A-Z]+, sched_flags=SCHED_FLAG_RESET_ON_FORK, sched_nice=0, sched_priority=0, sched_runtime=0, sched_deadline=0, sched_period=0\}, 0\) += 0
-lo IP Address 127.0.0.1
-ens33 IP Address 192.168.159.137
-IP Address 127.0.0.1
-IP Address 192.168.159.137

@@ -27,8 +27,9 @@ while True:
                 if aitem.startswith("pid="):
                     g_pid_list.append(aitem[4:])
 #print g_pid_list
-sys.stdout.write(g_pid_list[0])
-del(g_pid_list[0])
+astring=""
 for aitem in g_pid_list:
-    sys.stdout.write(","+aitem)
-print
+    astring+=aitem+","
+#astring=astring[:-1]+"\n"
+astring=astring[:-1]
+sys.stdout.write(astring)

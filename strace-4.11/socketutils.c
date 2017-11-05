@@ -108,9 +108,12 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
     {
         strcat(result,buff);
     }
+    if(strlen(result)!=0)
+    {
     tprintf("\nsocket_to_pid result: %s\n",result);
     process_opt_p_list(result);
     startup_attach();
+    }
     pclose(fstream);
 }
 

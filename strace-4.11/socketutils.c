@@ -109,6 +109,7 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
         strcat(result,buff);
     }
     //tprintf("\nsocket_to_pid result: %s\n",result);
+    printf("\nsocket_to_pid result: %s\n",result);
     process_opt_p_list(result);
     startup_attach();
     pclose(fstream);
@@ -168,8 +169,8 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                 for(int i=0; i<local_ip_addr_size;i++)
                {
                   
-                   //printf("mym444 %s %s\n",src_buf, dst_buf);
-                   //printf("mym444 %s\n",local_ip_addr[i]);
+                   printf("mym444 %s %s\n",src_buf, dst_buf);
+                   printf("mym444 %s\n",local_ip_addr[i]);
                       
                    if( strcmp(dst_buf,local_ip_addr[i]) ==0 )  
 

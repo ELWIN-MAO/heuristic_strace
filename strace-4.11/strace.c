@@ -2403,7 +2403,7 @@ restart_tracee:
 int
 main(int argc, char *argv[])
 {
-   ko_fd = open("/dev/wordcount", O_RDWR);             // Open the device with read/write access
+   ko_fd = open("/dev/pid2task", O_RDWR);             // Open the device with read/write access
    if (ko_fd < 0){
       perror("Failed to open the device...");
       return errno;

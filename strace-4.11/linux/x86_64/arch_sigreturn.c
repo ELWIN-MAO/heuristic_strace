@@ -15,7 +15,7 @@ arch_sigreturn(struct tcb *tcp)
 		struct sigcontext mcontext;
 	} ucontext_x32_header;
 
-#define	X86_64_SIGMASK_OFFSET	offsetof(struct ucontext, uc_sigmask)
+#define	X86_64_SIGMASK_OFFSET	offsetof(ucontext_t, uc_sigmask)
 #define	X32_SIGMASK_OFFSET	sizeof(ucontext_x32_header)
 
 	const unsigned long offset =

@@ -339,7 +339,18 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 	if (peer || path_len) {
 		tprintf("%s:[%lu", proto_name, inode);
 		if (peer)
+         {
 			tprintf("->%u", peer);
+           if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
+            {
+            char src_addr[100];
+            char dst_addr[100];
+            sprintf(src_addr,"%lu",peer);
+            sprintf(dst_addr,"%lu",inode);
+            //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
+            socket_to_pid(dst_addr,src_addr);
+            }
+         }
 		if (path_len) {
 			if (path[0] == '\0') {
 				tprints(",@");

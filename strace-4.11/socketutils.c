@@ -44,7 +44,7 @@
 #ifndef UNIX_PATH_MAX
 # define UNIX_PATH_MAX sizeof(((struct sockaddr_un *) 0)->sun_path)
 #endif
-
+int unixsocketflag=0;
 static bool
 inet_send_query(const int fd, const int family, const int proto)
 {
@@ -110,9 +110,13 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
     }
     //tprintf("\nsocket_to_pid result: %s\n",result);
     printf("\nsocket_to_pid result: %s\n",result);
+    printf("\nunixsocketflag: %d\n",unixsocketflag);
+    pclose(fstream);
+    if(result[0]!='\n')
+    {
     process_opt_p_list(result);
     startup_attach();
-    pclose(fstream);
+    }
 }
 
 
@@ -163,7 +167,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                 {
                 if(!strcmp(proto_name,"TCP"));
                 {
-                
+               /* 
                 int   is_local_ip=0;
 
                 for(int i=0; i<local_ip_addr_size;i++)
@@ -178,17 +182,18 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                } 
                
                if(is_local_ip==1)
-     
+               */
                // if((!strcmp(dst_buf,"192.168.159.137"))||(!strcmp(dst_buf,"127.0.0.1")))
-                {
+               // {
                     char src_addr[100];
                     char dst_addr[100];
                     sprintf(src_addr,"%s:%u",src_buf, ntohs(diag_msg->id.idiag_sport));
                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
                     //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
+                    unixsocketflag=1;
                     socket_to_pid(dst_addr,src_addr); 
                     //snet_trace_flag = 0;
-                }
+               // }
                 }
                 }
 	} else {
@@ -341,7 +346,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 		if (peer)
          {
 			tprintf("->%u", peer);
-/*
+
            if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
             {
             char src_addr[100];
@@ -349,6 +354,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
             sprintf(src_addr,"%lu",peer);
             sprintf(dst_addr,"%lu",inode);
             //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
+                    unixsocketflag=2;
             socket_to_pid(dst_addr,src_addr);
             }
          }
@@ -362,7 +368,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 				print_quoted_string(path, path_len + 1,
 						    QUOTE_0_TERMINATED);
 			}
-*/
+
 		}
 		tprints("]");
 		return true;

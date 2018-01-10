@@ -35,6 +35,8 @@ while True:
         #print(line.strip())
         #print(result1)
         result2=re.findall(pid_ptn_cmpiled,line)
+        if "1" in result2:
+            result2.remove("1")
         result3=list(set(result2))
         result3.sort()
         g_pid_list=",".join(result3)

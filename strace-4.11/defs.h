@@ -737,7 +737,8 @@ extern void line_ended(void);
 extern void tabto(void);
 extern void tprintf(const char *fmt, ...) ATTRIBUTE_FORMAT((printf, 1, 2));
 extern void tprints(const char *str);
-
+extern void process_opt_p_list(char *opt);
+extern void startup_attach(void);
 #if SUPPORTED_PERSONALITIES > 1
 extern void set_personality(int personality);
 extern unsigned current_personality;

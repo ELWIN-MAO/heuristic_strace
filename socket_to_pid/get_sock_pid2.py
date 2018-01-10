@@ -33,7 +33,7 @@ while True:
     if result1 :
         #print("+++++++++++++++")
         #print(line.strip())
-        print(result1)
+        #print(result1)
         result2=re.findall(pid_ptn_cmpiled,line)
         result3=list(set(result2))
         result3.sort()

@@ -341,7 +341,8 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 		if (peer)
          {
 			tprintf("->%u", peer);
-           if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
+/*
+           if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
             {
             char src_addr[100];
             char dst_addr[100];
@@ -361,6 +362,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 				print_quoted_string(path, path_len + 1,
 						    QUOTE_0_TERMINATED);
 			}
+*/
 		}
 		tprints("]");
 		return true;

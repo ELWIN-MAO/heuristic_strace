@@ -45,6 +45,59 @@
 # define UNIX_PATH_MAX sizeof(((struct sockaddr_un *) 0)->sun_path)
 #endif
 int unixsocketflag=0;
+
+
+
+int find_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
+{
+      int i=0;
+   for(; i<array_length;i++)
+    if(a_socket_inode_array[i]==a_inode)
+        {
+            return i;
+        }
+    else 
+            return -1;
+}
+
+int invalid_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
+{
+      int index= find_inode( a_socket_inode_array,  array_length, a_inode );
+      if (index!=-1)
+      { 
+      a_socket_inode_array[index]=0;  
+      }
+      return 0;
+
+}
+
+//before insert a inode must find if it exsit,sespesically  peer inode
+int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
+{   
+      // int index= find_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
+      // if (index!=-1)
+      // { 
+       // exit(123); 
+      // }
+      int i=0;
+    for(; i<array_length;i++)
+    {
+    if(a_socket_inode_array[i]==0)
+        {
+            a_socket_inode_array[i]=a_inode;
+            return 0;
+        }
+    else 
+       exit(456);
+   }
+     
+}
+
+
+
+
+
+
 static bool
 inet_send_query(const int fd, const int family, const int proto)
 {
@@ -87,16 +140,17 @@ inet_send_query(const int fd, const int family, const int proto)
 	}
 }
 
-void socket_to_pid(char* asrc_addr,char* adst_addr)
+void socket_to_pid(char* socket_type, char* asrc_addr,char* adst_addr)
 {
     FILE *fstream=NULL;
-    char buff[400]="";
-    char result[1000]="";
-    char cmd[300]="";
+    char buff[100]="";
+    char result[200]="";
+    char peer_inode[200]="";
+    char cmd[100]="";
 
 
     //memset(result,0,sizeof(result)); 
-    sprintf(cmd,"./get_sock_pid2.py %s  %s",asrc_addr,adst_addr);
+    sprintf(cmd,"./get_sock_pid2.py %s  %s  %s",socket_type,asrc_addr,adst_addr);
 
 
     if(NULL==(fstream=popen(cmd,"r")))
@@ -104,10 +158,14 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
         fprintf(stderr,"execute command failed: ");
         return;
     }
-    while(NULL!=fgets(buff, sizeof(buff), fstream))
-    {
-        strcat(result,buff);
-    }
+    //while(NULL!=fgets(buff, sizeof(buff), fstream))
+    //{
+    //    strcat(result,buff);
+    //}
+    if(NULL!=fgets(buff, sizeof(buff), fstream))
+       strcat(result,buff);
+    if(NULL!=fgets(buff, sizeof(buff), fstream))
+       strcat(peer_inode,buff);
     //tprintf("\nsocket_to_pid result: %s\n",result);
     printf("\nsocket_to_pid result: %s\n",result);
     printf("\nunixsocketflag: %d\n",unixsocketflag);
@@ -117,6 +175,18 @@ void socket_to_pid(char* asrc_addr,char* adst_addr)
     process_opt_p_list(result);
     startup_attach();
     }
+
+    if(peer_inode[0]!='\n')
+    {
+     unsigned long peer_inode_lu;
+     sscanf(peer_inode,"%lu",&peer_inode_lu);
+     if(find_inode(socket_inode_array,300,peer_inode_lu)==-1 ) 
+        {
+           insert_inode(socket_inode_array,300,peer_inode_lu);
+        }
+    }
+
+
 }
 
 
@@ -185,15 +255,18 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                */
                // if((!strcmp(dst_buf,"192.168.159.137"))||(!strcmp(dst_buf,"127.0.0.1")))
                // {
+                if(find_inode(socket_inode_array,300,inode)==-1)
+                {
                     char src_addr[100];
                     char dst_addr[100];
                     sprintf(src_addr,"%s:%u",src_buf, ntohs(diag_msg->id.idiag_sport));
                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
                     //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
                     unixsocketflag=1;
-                    socket_to_pid(dst_addr,src_addr); 
+                    socket_to_pid(proto_name,dst_addr,src_addr); 
                     //snet_trace_flag = 0;
                // }
+                }
                 }
                 }
 	} else {
@@ -355,7 +428,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
             sprintf(dst_addr,"%lu",inode);
             //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
                     unixsocketflag=2;
-            socket_to_pid(dst_addr,src_addr);
+            socket_to_pid(proto_name,dst_addr,src_addr);
             }
          }
 		if (path_len) {

@@ -476,6 +476,8 @@ extern const struct xlat whence_codes[];
 # define NEED_UID16_PARSERS 0
 #endif
 
+extern unsigned long socket_inode_array[300];
+
 typedef enum {
 	CFLAG_NONE = 0,
 	CFLAG_ONLY_STATS,

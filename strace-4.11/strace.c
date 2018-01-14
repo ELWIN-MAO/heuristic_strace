@@ -47,7 +47,7 @@
 #include "ptrace.h"
 #include "printsiginfo.h"
 
-
+unsigned long socket_inode_array[300]={0};
 int ko_fd;
 unsigned long long eventcount=0;
 #define BUFFER_LENGTH 256  

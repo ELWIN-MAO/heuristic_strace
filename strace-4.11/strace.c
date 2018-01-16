@@ -93,8 +93,6 @@ unsigned int ptrace_setoptions = PTRACE_O_TRACESYSGOOD | PTRACE_O_TRACEEXEC;
 unsigned int xflag = 0;
 bool debug_flag = 0;
 bool snet_trace_flag = 0;
-char *local_ip_addr[10]={NULL};
-int  local_ip_addr_size=0;
 bool Tflag = 0;
 bool iflag = 0;
 bool count_wallclock = 0;
@@ -1546,32 +1544,6 @@ init(int argc, char *argv[])
 	tcp = xcalloc(tcbtabsize, sizeof(*tcp));
 	for (tcbi = 0; tcbi < tcbtabsize; tcbi++)
 		tcbtab[tcbi] = tcp++;
-
-    struct ifaddrs * ifAddrStruct=NULL;
-    void * tmpAddrPtr=NULL;
-    char * addressBuffer=NULL;
-    int local_ip_addr_index=0;
-    getifaddrs(&ifAddrStruct);
-
-    while (ifAddrStruct!=NULL) {
-        if (ifAddrStruct->ifa_addr->sa_family==AF_INET) { // check it is IP4
-            // is a valid IP4 Address
-            tmpAddrPtr=&((struct sockaddr_in *)ifAddrStruct->ifa_addr)->sin_addr;
-            //char addressBuffer[INET_ADDRSTRLEN];
-            addressBuffer=(char *) calloc(1,INET_ADDRSTRLEN);
-            inet_ntop(AF_INET, tmpAddrPtr, addressBuffer, INET_ADDRSTRLEN);
-            local_ip_addr[local_ip_addr_index]=addressBuffer;
-            local_ip_addr_index++;
-            local_ip_addr_size++;
-            printf("%s IP Address %s\n", ifAddrStruct->ifa_name, addressBuffer);
-            }
-        ifAddrStruct=ifAddrStruct->ifa_next;
-    }
-    for(local_ip_addr_index=0; local_ip_addr_index<local_ip_addr_size;local_ip_addr_index++)
-     {
-     printf("IP Address %s\n", local_ip_addr[local_ip_addr_index]);
-
-     }
 
 	shared_log = stderr;
 	set_sortby(DEFAULT_SORTBY);

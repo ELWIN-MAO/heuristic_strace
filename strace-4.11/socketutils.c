@@ -44,7 +44,6 @@
 #ifndef UNIX_PATH_MAX
 # define UNIX_PATH_MAX sizeof(((struct sockaddr_un *) 0)->sun_path)
 #endif
-int unixsocketflag=0;
 
 
 
@@ -172,11 +171,11 @@ void socket_to_pid(char* socket_type, char* asrc_addr,char* adst_addr)
        strcat(result,buff);
     if(NULL!=fgets(buff, sizeof(buff), fstream))
        strcat(peer_inode,buff);
-    //tprintf("\nsocket_to_pid result: %s\n",result);
+    printf("\ncurrent_tid: %d\n",current_tcp->pid);
+    printf("\nsocket_type: %s\n",socket_type);
     printf("\naddr: %s,%s\n",asrc_addr,adst_addr);
     printf("\nsocket_to_pid result: %s\n",result);
     printf("\npeer_inode: %s\n",peer_inode);
-    //printf("\nunixsocketflag: %d\n",unixsocketflag);
     pclose(fstream);
     if(result[0]!='\n')
     {
@@ -243,26 +242,8 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
 			dst_buf, ntohs(diag_msg->id.idiag_dport));
                 if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" )) )
                 {
-                if(!strcmp(proto_name,"TCP"));
+                if(!strcmp(proto_name,"TCP"))
                 {
-               /* 
-                int   is_local_ip=0;
-
-                for(int i=0; i<local_ip_addr_size;i++)
-               {
-                  
-                   printf("mym444 %s %s\n",src_buf, dst_buf);
-                   printf("mym444 %s\n",local_ip_addr[i]);
-                      
-                   if( strcmp(dst_buf,local_ip_addr[i]) ==0 )  
-
-                      is_local_ip=1;
-               } 
-               
-               if(is_local_ip==1)
-               */
-               // if((!strcmp(dst_buf,"192.168.159.137"))||(!strcmp(dst_buf,"127.0.0.1")))
-               // {
                 if(find_inode(socket_inode_array,300,inode)==-1)
                 {
                     char src_addr[100];
@@ -270,10 +251,8 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                     sprintf(src_addr,"%s:%u",src_buf, ntohs(diag_msg->id.idiag_sport));
                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
                     //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
-                    unixsocketflag=1;
                     socket_to_pid(proto_name,dst_addr,src_addr); 
                     //snet_trace_flag = 0;
-               // }
                 }
                 }
                 }
@@ -437,7 +416,6 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
             sprintf(src_addr,"%lu",inode);
             sprintf(dst_addr,"%lu",peer);
             //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
-                    unixsocketflag=2;
             socket_to_pid(proto_name,dst_addr,src_addr);
             insert_inode(socket_inode_array,300,inode);
                 }

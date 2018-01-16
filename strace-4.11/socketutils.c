@@ -52,11 +52,13 @@ int find_inode(unsigned long a_socket_inode_array[], int array_length,unsigned l
 {
       int i=0;
    for(; i<array_length;i++)
+    {
     if(a_socket_inode_array[i]==a_inode)
         {
             return i;
         }
-    else 
+    }
+    if(i==array_length)
             return -1;
 }
 
@@ -87,9 +89,13 @@ int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned
             a_socket_inode_array[i]=a_inode;
             return 0;
         }
-    else 
-       exit(456);
    }
+
+    if(i==array_length) 
+       {
+       printf("error 456\n");
+       exit(456);
+       }
      
 }
 
@@ -167,8 +173,10 @@ void socket_to_pid(char* socket_type, char* asrc_addr,char* adst_addr)
     if(NULL!=fgets(buff, sizeof(buff), fstream))
        strcat(peer_inode,buff);
     //tprintf("\nsocket_to_pid result: %s\n",result);
+    printf("\naddr: %s,%s\n",asrc_addr,adst_addr);
     printf("\nsocket_to_pid result: %s\n",result);
-    printf("\nunixsocketflag: %d\n",unixsocketflag);
+    printf("\npeer_inode: %s\n",peer_inode);
+    //printf("\nunixsocketflag: %d\n",unixsocketflag);
     pclose(fstream);
     if(result[0]!='\n')
     {
@@ -422,13 +430,17 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 
            if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
             {
+               if(find_inode(socket_inode_array,300,inode)==-1)
+                { 
             char src_addr[100];
             char dst_addr[100];
-            sprintf(src_addr,"%lu",peer);
-            sprintf(dst_addr,"%lu",inode);
+            sprintf(src_addr,"%lu",inode);
+            sprintf(dst_addr,"%lu",peer);
             //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
                     unixsocketflag=2;
             socket_to_pid(proto_name,dst_addr,src_addr);
+            insert_inode(socket_inode_array,300,inode);
+                }
             }
          }
 		if (path_len) {

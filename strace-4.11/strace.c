@@ -2382,8 +2382,9 @@ main(int argc, char *argv[])
       perror("Failed to open the device...");
       return errno;
    }
-
-    sprintf(get_sock_pid_cmd_path,"%s/get_sock_pid2.py",dirname(argv[0]));
+    char temp_str[100]="";
+    strcpy(temp_str,argv[0]);
+    sprintf(get_sock_pid_cmd_path,"%s/get_sock_pid2.py",dirname(temp_str));
 
 	init(argc, argv);
 

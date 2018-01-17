@@ -53,12 +53,12 @@ int find_inode(unsigned long a_socket_inode_array[], int array_length,unsigned l
    for(; i<array_length;i++)
     {
     if(a_socket_inode_array[i]==a_inode)
-        {
-            return i;
-        }
+            break;
     }
     if(i==array_length)
             return -1;
+    else
+        return i;
 }
 
 int invalid_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
@@ -86,7 +86,7 @@ int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned
     if(a_socket_inode_array[i]==0)
         {
             a_socket_inode_array[i]=a_inode;
-            return 0;
+                break;
         }
    }
 
@@ -95,6 +95,8 @@ int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned
        printf("error 456\n");
        exit(456);
        }
+     else
+        return 0;
      
 }
 
@@ -145,7 +147,7 @@ inet_send_query(const int fd, const int family, const int proto)
 	}
 }
 
-void socket_to_pid(char* socket_type, char* asrc_addr,char* adst_addr)
+void socket_to_pid(const char* socket_type, char* asrc_addr,char* adst_addr)
 {
     FILE *fstream=NULL;
     char buff[100]="";
@@ -252,6 +254,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
                     sprintf(dst_addr,"%s:%u",dst_buf, ntohs(diag_msg->id.idiag_dport));
                     //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
                     socket_to_pid(proto_name,dst_addr,src_addr); 
+                    insert_inode(socket_inode_array,300,inode);
                     //snet_trace_flag = 0;
                 }
                 }
@@ -414,7 +417,7 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
             char src_addr[100];
             char dst_addr[100];
             sprintf(src_addr,"%lu",inode);
-            sprintf(dst_addr,"%lu",peer);
+            sprintf(dst_addr,"%u",peer);
             //tprintf("\nmym_socket_commu %s %s\n",src_addr, dst_addr); 
             socket_to_pid(proto_name,dst_addr,src_addr);
             insert_inode(socket_inode_array,300,inode);

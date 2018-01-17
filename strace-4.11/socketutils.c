@@ -67,8 +67,10 @@ int invalid_inode(unsigned long a_socket_inode_array[], int array_length,unsigne
       if (index!=-1)
       { 
       a_socket_inode_array[index]=0;  
-      }
       return 0;
+      }
+      else
+        return -1;
 
 }
 
@@ -473,6 +475,13 @@ print_sockaddr_by_inode(const unsigned long inode, const char *proto_name)
 			r = inet_print(fd, AF_INET6, IPPROTO_UDP, inode, "UDPv6");
 		else if (strcmp(proto_name, "UNIX") == 0)
 			r = unix_print(fd, inode);
+        if( (!strcmp( current_tcp->s_ent->sys_name,"close" )) && (  (!strcmp(proto_name,"TCP")) ||  ((!strcmp(proto_name,"UNIX"))) ) )
+        {
+            int rslt=invalid_inode(socket_inode_array,300,inode);
+            printf("\ninvalid_current_tid: %d\n",current_tcp->pid);
+            printf("\ninvalid_socket_type: %s\n",proto_name);
+            printf("\ninvalid_inode: %lu , result:%d\n",inode, rslt);
+        }
 	} else {
 		const struct {
 			const int family;

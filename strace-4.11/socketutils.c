@@ -151,11 +151,11 @@ void socket_to_pid(char* socket_type, char* asrc_addr,char* adst_addr)
     char buff[100]="";
     char result[200]="";
     char peer_inode[200]="";
-    char cmd[100]="";
+    char cmd[300]="";
 
 
     //memset(result,0,sizeof(result)); 
-    sprintf(cmd,"./get_sock_pid2.py %s  %s  %s",socket_type,asrc_addr,adst_addr);
+    sprintf(cmd,"%s %s  %s  %s", get_sock_pid_cmd_path ,socket_type,asrc_addr,adst_addr);
 
 
     if(NULL==(fstream=popen(cmd,"r")))

@@ -29,6 +29,7 @@
  */
 
 #include "defs.h"
+#include <libgen.h>
 #include <stdarg.h>
 #include <sys/param.h>
 #include <fcntl.h>
@@ -49,6 +50,7 @@
 
 unsigned long socket_inode_array[300]={0};
 int ko_fd;
+char get_sock_pid_cmd_path[200]="";
 unsigned long long eventcount=0;
 #define BUFFER_LENGTH 256  
 char stringToSend[BUFFER_LENGTH];
@@ -2381,6 +2383,7 @@ main(int argc, char *argv[])
       return errno;
    }
 
+    sprintf(get_sock_pid_cmd_path,"%s/get_sock_pid2.py",dirname(argv[0]));
 
 	init(argc, argv);
 

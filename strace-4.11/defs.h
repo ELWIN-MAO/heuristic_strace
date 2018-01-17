@@ -477,6 +477,7 @@ extern const struct xlat whence_codes[];
 #endif
 
 extern unsigned long socket_inode_array[300];
+extern char get_sock_pid_cmd_path[200];
 
 typedef enum {
 	CFLAG_NONE = 0,

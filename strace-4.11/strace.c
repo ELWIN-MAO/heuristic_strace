@@ -671,7 +671,7 @@ printleader(struct tcb *tcp)
         tprintf("%llu , ", ++eventcount);
 	if (print_pid_pfx)
           {
-                tprintf("%-5d ", tcp->pid);
+                tprintf("%d ", tcp->pid);
                 pid_to_pname(tcp->pid); 
                // tprintf("pid is: %d", tcp->pid);
           }

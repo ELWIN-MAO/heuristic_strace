@@ -74,7 +74,8 @@ def unix_soket_process():
         if not line : break
         result1=unix_pair_ptn_cmpiled.match(line)
         if result1 and (result1.group(6)==local_addr) and (result1.group(9)==peer_addr) :
-            peer_inode=peer_addr
+            peer_inode=local_addr
+            ##in UNIX socket local_addr is the socket onwer process' inode number
             #print(line.strip())
             result2=re.findall(pid_ptn_cmpiled,line)
             if "1" in result2:

@@ -2379,8 +2379,8 @@ main(int argc, char *argv[])
 {
    ko_fd = open("/dev/pid2task", O_RDWR);             // Open the device with read/write access
    if (ko_fd < 0){
-      perror("Failed to open the device...");
-      return errno;
+      perror("Failed to open the device /dev/pid2task");
+      exit(errno);
    }
     char temp_str[100]="";
     strcpy(temp_str,argv[0]);

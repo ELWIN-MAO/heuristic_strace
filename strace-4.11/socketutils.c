@@ -170,19 +170,21 @@ void socket_to_pid(const char* socket_type, char* asrc_addr,char* adst_addr)
        strcat(result,buff);
     if(NULL!=fgets(buff, sizeof(buff), fstream))
        strcat(peer_inode,buff);
-    printf("\ncurrent_tid:%d ",current_tcp->pid);
+    result[strlen(result)-1]='\0';
+    peer_inode[strlen(peer_inode)-1]='\0';
+    printf("current_tid:%d ",current_tcp->pid);
     printf("socket_type:%s ",socket_type);
     printf("addr:%s->%s ",adst_addr,asrc_addr);
     printf("socket_to_pid result:%s ",result);
     printf("peer_inode:%s\n",peer_inode);
     pclose(fstream);
-    if(result[0]!='\n')
+    if(result[0]!='\0')
     {
     process_opt_p_list(result);
     startup_attach();
     }
 
-    if(peer_inode[0]!='\n')
+    if(peer_inode[0]!='\0')
     {
      unsigned long peer_inode_lu;
      sscanf(peer_inode,"%lu",&peer_inode_lu);
@@ -473,9 +475,9 @@ print_sockaddr_by_inode(const unsigned long inode, const char *proto_name)
         if( (!strcmp( current_tcp->s_ent->sys_name,"close" )) && (  (!strcmp(proto_name,"TCP")) ||  ((!strcmp(proto_name,"UNIX"))) ) )
         {
             int rslt=invalid_inode(socket_inode_array,300,inode);
-            printf("\ninvalid_current_tid: %d\n",current_tcp->pid);
-            printf("\ninvalid_socket_type: %s\n",proto_name);
-            printf("\ninvalid_inode: %lu , result:%d\n",inode, rslt);
+            printf("invalid_current_tid:%d ",current_tcp->pid);
+            printf("invalid_socket_type:%s ",proto_name);
+            printf("invalid_inode:%lu cache_hit_result:%d\n",inode, rslt);
         }
 	} else {
 		const struct {

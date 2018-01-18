@@ -77,11 +77,6 @@ int invalid_inode(unsigned long a_socket_inode_array[], int array_length,unsigne
 //before insert a inode must find if it exsit,sespesically  peer inode
 int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
 {   
-      // int index= find_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
-      // if (index!=-1)
-      // { 
-       // exit(123); 
-      // }
       int i=0;
     for(; i<array_length;i++)
     {
@@ -94,7 +89,7 @@ int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned
 
     if(i==array_length) 
        {
-       printf("error 456\n");
+        fprintf(stderr,"inster_inode error,there is not enough space in a_socket_inode_array[]\n");
        exit(456);
        }
      else
@@ -164,8 +159,8 @@ void socket_to_pid(const char* socket_type, char* asrc_addr,char* adst_addr)
 
     if(NULL==(fstream=popen(cmd,"r")))
     {
-        fprintf(stderr,"execute command failed: ");
-        return;
+        fprintf(stderr,"execute %s failed!\n",get_sock_pid_cmd_path);
+        exit(44);
     }
     //while(NULL!=fgets(buff, sizeof(buff), fstream))
     //{
@@ -175,11 +170,11 @@ void socket_to_pid(const char* socket_type, char* asrc_addr,char* adst_addr)
        strcat(result,buff);
     if(NULL!=fgets(buff, sizeof(buff), fstream))
        strcat(peer_inode,buff);
-    printf("\ncurrent_tid: %d\n",current_tcp->pid);
-    printf("\nsocket_type: %s\n",socket_type);
-    printf("\naddr: %s,%s\n",asrc_addr,adst_addr);
-    printf("\nsocket_to_pid result: %s\n",result);
-    printf("\npeer_inode: %s\n",peer_inode);
+    printf("\ncurrent_tid:%d ",current_tcp->pid);
+    printf("socket_type:%s ",socket_type);
+    printf("addr:%s->%s ",adst_addr,asrc_addr);
+    printf("socket_to_pid result:%s ",result);
+    printf("peer_inode:%s\n",peer_inode);
     pclose(fstream);
     if(result[0]!='\n')
     {

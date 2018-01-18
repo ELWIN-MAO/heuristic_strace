@@ -175,7 +175,7 @@ void socket_to_pid(const char* socket_type, char* asrc_addr,char* adst_addr)
     printf("current_tid:%d ",current_tcp->pid);
     printf("socket_type:%s ",socket_type);
     printf("addr:%s->%s ",adst_addr,asrc_addr);
-    printf("socket_to_pid result:%s ",result);
+    printf("socket_to_pid_result:%s ",result);
     printf("peer_inode:%s\n",peer_inode);
     pclose(fstream);
     if(result[0]!='\0')

@@ -241,7 +241,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
 			proto_name,
 			src_buf, ntohs(diag_msg->id.idiag_sport),
 			dst_buf, ntohs(diag_msg->id.idiag_dport));
-                if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" )) )
+if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"send" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recv" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmmsg" )) || (!strcmp( current_tcp->s_ent->sys_name,"recvmmsg" )))
                 {
                 if(!strcmp(proto_name,"TCP"))
                 {
@@ -408,8 +408,8 @@ unix_parse_response(const char *proto_name, const void *data, int data_len,
 		if (peer)
          {
 			tprintf("->%u", peer);
+if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"send" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recv" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmmsg" )) || (!strcmp( current_tcp->s_ent->sys_name,"recvmmsg" )))
 
-           if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendsmg" )) )
             {
                if(find_inode(socket_inode_array,300,inode)==-1)
                 { 

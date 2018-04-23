@@ -49,7 +49,7 @@
 #include "printsiginfo.h"
 
 unsigned long socket_inode_array[300]={0};
-int ko_fd;
+//int ko_fd;
 char get_sock_pid_cmd_path[200]="";
 unsigned long long eventcount=0;
 #define BUFFER_LENGTH 256  
@@ -620,25 +620,30 @@ line_ended(void)
 
 int pid_to_pname(int pid)
 {
-   //tprintf("hello log\n");
-   int ret;
-   char stringToSend[BUFFER_LENGTH];
-   sprintf(stringToSend, "%d", pid);
-   ret = write(ko_fd, stringToSend, strlen(stringToSend)+1); // Send the string to the LKM
-   if (ret < 0){
-      perror("Failed to write the message to the device.");
-      return errno;
-   }
-   ret = read(ko_fd, receive, BUFFER_LENGTH);        // Read the response from the LKM
-   if (ret < 0){
-      perror("Failed to read the message from the device.");
-      return errno;
-   }
-   receive[ret+1]='\0';
-   receive[ret-1]='\0';
-   //tprintf("The received message is: %s", receive);
-   tprintf(", %s , ", receive);
-   //tprintf("by log\n");
+   FILE *stream;
+   char name[30];
+   char tgid[30];
+   int  len;
+   char filename[50]; 
+   sprintf(filename, "/proc/%d/status", pid);
+
+   if( (stream = fopen(filename, "r" )) != NULL )
+   {
+       fgets(name,30,stream);
+       //printf("%s\n",line);
+       len = strlen(name);
+       name[len-1]='\0';
+       fgets(tgid,30,stream);
+       fgets(tgid,30,stream);
+       len = strlen(tgid);
+       tgid[len-1]='\0';
+       //printf("%s\n",line);
+       tprintf(", %s ",tgid+6);
+       tprintf(", %s , ",name+6);
+       //printf( "%s", line);  
+       //printf("\n");  
+       fclose( stream );
+    }
    return 0;
 }
 
@@ -2377,11 +2382,11 @@ restart_tracee:
 int
 main(int argc, char *argv[])
 {
-   ko_fd = open("/dev/pid2task", O_RDWR);             // Open the device with read/write access
-   if (ko_fd < 0){
-      perror("Failed to open the device /dev/pid2task");
-      exit(errno);
-   }
+   //ko_fd = open("/dev/pid2task", O_RDWR);             // Open the device with read/write access
+   //if (ko_fd < 0){
+   //   perror("Failed to open the device /dev/pid2task");
+   //   exit(errno);
+   //}
     char temp_str[100]="";
     strcpy(temp_str,argv[0]);
     sprintf(get_sock_pid_cmd_path,"%s/get_sock_pid2.py",dirname(temp_str));

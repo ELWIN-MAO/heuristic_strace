@@ -644,6 +644,10 @@ int pid_to_pname(int pid)
        //printf("\n");  
        fclose( stream );
     }
+    else
+    {
+       tprintf(", %s , %s , ","-1","NULL");
+    }
    return 0;
 }
 

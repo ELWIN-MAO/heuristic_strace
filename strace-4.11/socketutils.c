@@ -77,6 +77,7 @@ int invalid_inode(unsigned long a_socket_inode_array[], int array_length,unsigne
 //before insert a inode must find if it exsit,sespesically  peer inode
 int insert_inode(unsigned long a_socket_inode_array[], int array_length,unsigned long a_inode )
 {   
+    printf("insert_inode:%lu\n",a_inode);
       int i=0;
     for(; i<array_length;i++)
     {

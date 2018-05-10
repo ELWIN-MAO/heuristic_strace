@@ -618,14 +618,14 @@ line_ended(void)
 
 
 
-int pid_to_pname(int pid)
+int tid_to_threadname_pid(int tid)
 {
    FILE *stream;
    char name[30];
    char tgid[30];
    int  len;
    char filename[50]; 
-   sprintf(filename, "/proc/%d/status", pid);
+   sprintf(filename, "/proc/%d/status", tid);
 
    if( (stream = fopen(filename, "r" )) != NULL )
    {
@@ -683,7 +683,7 @@ printleader(struct tcb *tcp)
 	if (print_pid_pfx)
           {
                 tprintf("%d ", tcp->pid);
-                pid_to_pname(tcp->pid); 
+                tid_to_threadname_pid(tcp->pid); 
                // tprintf("pid is: %d", tcp->pid);
           }
 	else if (nprocs > 1 && !outfname)

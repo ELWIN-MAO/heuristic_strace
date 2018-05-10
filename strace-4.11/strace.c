@@ -621,27 +621,42 @@ line_ended(void)
 int tid_to_threadname_pid(int tid)
 {
    FILE *stream;
+   char line[30];
    char name[30];
    char tgid[30];
    int  len;
-   char filename[50]; 
+   char filename[50];
+   int  infocount=0;
    sprintf(filename, "/proc/%d/status", tid);
 
    if( (stream = fopen(filename, "r" )) != NULL )
    {
-       fgets(name,30,stream);
-       //printf("%s\n",line);
-       len = strlen(name);
-       name[len-1]='\0';
-       fgets(tgid,30,stream);
-       fgets(tgid,30,stream);
-       len = strlen(tgid);
-       tgid[len-1]='\0';
-       //printf("%s\n",line);
-       tprintf(", %s ",tgid+6);
-       tprintf(", %s , ",name+6);
-       //printf( "%s", line);  
-       //printf("\n");  
+
+     while(fgets(line,30,stream)!=NULL)
+     {
+       //printf("%s",line);
+       if(0==strncmp(line,"Name:\t",6))
+       {
+       line[strlen(line)-1]='\0';
+       strcpy(name,line+6);
+       infocount++;
+       }
+       else
+       if(0==strncmp(line,"Tgid:\t",6))
+       {
+       line[strlen(line)-1]='\0';
+       strcpy(tgid,line+6);
+       infocount++;
+       }
+
+       if(infocount==2)
+         break;
+
+
+      }
+       tprintf(", %s ",tgid);
+       tprintf(", %s , ",name);
+       //printf("\n");
        fclose( stream );
     }
     else

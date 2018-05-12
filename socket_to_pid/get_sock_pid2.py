@@ -31,7 +31,7 @@ pid_ptn_cmpiled=re.compile(pid_ptn)
 def tcp_soket_process():
     g_pid_list=""
     peer_inode=""
-    tcp_pair_ptn=r'tcp(\ )+.+(\ )+[\d]+(\ )+[\d]+(\ )+([\d\.\:]+)(\ )+([\d\.\:]+)(\ )+.*?pid=(\d+).*ino\:([\d]+).*'
+    tcp_pair_ptn=r'tcp(\ )+.+(\ )+[\d]+(\ )+[\d]+(\ )+([\d\.\:a-f]+)(\ )+([\d\.\:a-f]+)(\ )+.*?pid=(\d+).*ino\:([\d]+).*'
     tcp_pair_ptn_cmpiled=re.compile(tcp_pair_ptn)
 
     while True:

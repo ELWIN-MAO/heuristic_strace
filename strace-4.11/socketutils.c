@@ -244,7 +244,7 @@ inet_parse_response(const char *proto_name, const void *data, int data_len,
 			dst_buf, ntohs(diag_msg->id.idiag_dport));
 if((!strcmp( current_tcp->s_ent->sys_name,"read" )) ||(!strcmp( current_tcp->s_ent->sys_name,"write" ))||(!strcmp( current_tcp->s_ent->sys_name,"writev" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recvfrom" )) ||(!strcmp( current_tcp->s_ent->sys_name,"sendto" ))||(!strcmp( current_tcp->s_ent->sys_name,"recvmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmsg" ))||(!strcmp( current_tcp->s_ent->sys_name,"send" )) ||(!strcmp( current_tcp->s_ent->sys_name,"recv" ))||(!strcmp( current_tcp->s_ent->sys_name,"sendmmsg" )) || (!strcmp( current_tcp->s_ent->sys_name,"recvmmsg" )))
                 {
-                if(!strcmp(proto_name,"TCP"))
+                if(!strncmp(proto_name,"TCP",3))
                 {
                 if(find_inode(socket_inode_array,300,inode)==-1)
                 {
@@ -473,7 +473,7 @@ print_sockaddr_by_inode(const unsigned long inode, const char *proto_name)
 			r = inet_print(fd, AF_INET6, IPPROTO_UDP, inode, "UDPv6");
 		else if (strcmp(proto_name, "UNIX") == 0)
 			r = unix_print(fd, inode);
-        if( (!strcmp( current_tcp->s_ent->sys_name,"close" )) && (  (!strcmp(proto_name,"TCP")) ||  ((!strcmp(proto_name,"UNIX"))) ) )
+        if( (!strcmp( current_tcp->s_ent->sys_name,"close" )) && (  (!strncmp(proto_name,"TCP",3)) ||  ((!strcmp(proto_name,"UNIX"))) ) )
         {
             int rslt=invalid_inode(socket_inode_array,300,inode);
             printf("invalid_current_tid:%d ",current_tcp->pid);

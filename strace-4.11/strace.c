@@ -52,9 +52,6 @@ unsigned long socket_inode_array[300]={0};
 //int ko_fd;
 char get_sock_pid_cmd_path[200]="";
 unsigned long long eventcount=0;
-#define BUFFER_LENGTH 256  
-char stringToSend[BUFFER_LENGTH];
-static char receive[BUFFER_LENGTH]; 
 
 
 
@@ -624,7 +621,6 @@ int tid_to_threadname_pid(int tid)
    char line[30];
    char name[30];
    char tgid[30];
-   int  len;
    char filename[50];
    int  infocount=0;
    sprintf(filename, "/proc/%d/status", tid);

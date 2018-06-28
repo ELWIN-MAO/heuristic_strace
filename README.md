@@ -29,13 +29,19 @@ mkdir -p  ./strace-4.11/build_dir/test_data/
 
 cp ../data_process/*.sh  ./strace-4.11/build_dir/
 cp ../data_process/*.py  ./strace-4.11/build_dir/
+cp ./socket_to_pid/get_sock_pid2.py ./strace-4.11/build_dir/
+
+#build h-strace
+cd ./strace-4.11/build_dir/
+sudo apt-get build-dep strace
+../configure  --with-libunwind
+make -j4
 
 cp ./h-strace.py ./strace-4.11/build_dir/test_data/
-
-cd ./strace-4.11/build_dir/test_data/
 ```
 ## run h-strace:
 ```
+cd ./strace-4.11/build_dir/test_data/
 ./h-strace.py XWINDOW NULL
 ./h-strace.py TCP 3389
 ./h-strace.py UNIX /tmp/.X11-unix/X0

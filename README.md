@@ -39,5 +39,8 @@ cd ./strace-4.11/build_dir/test_data/
 ./h-strace.py XWINDOW NULL
 ./h-strace.py TCP 3389
 ./h-strace.py UNIX /tmp/.X11-unix/X0
+sudo ./gengraph2.sh
+
+#check *.jpg or *.svg for result
 ```
  

@@ -22,7 +22,6 @@ cd ~
 git clone https://github.com/ELWIN-MAO/data_process
 git clone https://github.com/ELWIN-MAO/heuristic_strace
 
-mkdir -p 
 
 cd heuristic_strace
 mkdir -p  ./strace-4.11/build_dir/test_data/
